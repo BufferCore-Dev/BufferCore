@@ -1,0 +1,20 @@
+//
+// Semantics: Borders
+//
+// Public Border Width roles mapped from Primitive Stroke.
+//
+
+:root {
+
+    //
+    // Border Width
+    //
+    --bc-border-width-0: var(--bc-stroke-width-0);
+    --bc-border-width-xs: var(--bc-stroke-width-1);
+    --bc-border-width-sm: var(--bc-stroke-width-2);
+    --bc-border-width-md: var(--bc-stroke-width-4);
+    --bc-border-width-lg: var(--bc-stroke-width-6);
+    --bc-border-width-xl: var(--bc-stroke-width-8);
+    --bc-border-width-2xl: var(--bc-stroke-width-16);
+
+}

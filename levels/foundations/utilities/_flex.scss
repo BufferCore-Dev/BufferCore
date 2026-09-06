@@ -1,0 +1,45 @@
+//
+// Utilities: Flex
+//
+// Helper classes for flex layout behaviour.
+//
+
+//
+// Flex
+//
+
+.bc-flex {
+    display: flex;
+}
+
+.bc-inline-flex {
+    display: inline-flex;
+}
+
+.bc-flex-row {
+    flex-direction: row;
+}
+
+.bc-flex-col {
+    flex-direction: column;
+}
+
+.bc-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.bc-flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.bc-flex-1 {
+    flex: 1;
+}
+
+.bc-flex-auto {
+    flex: auto;
+}
+
+.bc-flex-none {
+    flex: none;
+}

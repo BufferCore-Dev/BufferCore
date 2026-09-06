@@ -1,0 +1,24 @@
+//
+// Primitives: Shadows
+//
+// Raw layered Shadow geometry, spread and per-layer opacity.
+// Strength × Level meaning is composed at Semantics.
+// Shadow tint belongs to Colour Semantics.
+//
+
+@use "sass:list";
+@use "../abstracts/shadow-recipes" as shadow-recipes;
+
+:root {
+    @each $strength, $levels in shadow-recipes.$bc-shadow-recipes {
+        @each $level, $layers in $levels {
+            @for $index from 1 through list.length($layers) {
+                $layer: list.nth($layers, $index);
+
+                --bc-shadow-geometry-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 1)};
+                --bc-shadow-spread-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 2)};
+                --bc-shadow-opacity-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 3)};
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+//
+// Primitives: Containers
+//
+// Raw reusable container widths and fluid edge-space values. Structural Layout composition belongs to the Layout level.
+//
+
+:root {
+
+    //
+    // Container Width
+    //
+    --bc-container-width-sm: 800px;
+    --bc-container-width-md: 1440px;
+    --bc-container-width-lg: 1920px;
+
+    //
+    // Container Space
+    //
+    --bc-container-space-sm: clamp(1rem, 3vw, 2rem);
+    --bc-container-space-md: clamp(1rem, 4vw, 3rem);
+    --bc-container-space-lg: clamp(1.5rem, 5vw, 4rem);
+
+}

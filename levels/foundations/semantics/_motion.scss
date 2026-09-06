@@ -1,0 +1,62 @@
+//
+// Semantics: Motion
+//
+// Purpose-led motion recipes remain available as composite CSS transition
+// values, while their duration and easing parts are also exposed separately.
+// This keeps the semantic API useful in CSS and gives platform adapters (such
+// as Figma) real semantic values that can alias the underlying primitives.
+//
+
+:root {
+    // Immediate change.
+    --bc-motion-instant-duration: var(--bc-motion-duration-0);
+    --bc-motion-instant-easing: var(--bc-motion-easing-standard);
+    --bc-motion-instant: var(--bc-motion-instant-duration) var(--bc-motion-instant-easing);
+
+    // Small acknowledgement / press feedback.
+    --bc-motion-feedback-duration: var(--bc-motion-duration-120);
+    --bc-motion-feedback-easing: var(--bc-motion-easing-standard);
+    --bc-motion-feedback: var(--bc-motion-feedback-duration) var(--bc-motion-feedback-easing);
+
+    // Normal interactive state change.
+    --bc-motion-interaction-duration: var(--bc-motion-duration-180);
+    --bc-motion-interaction-easing: var(--bc-motion-easing-standard);
+    --bc-motion-interaction: var(--bc-motion-interaction-duration) var(--bc-motion-interaction-easing);
+
+    // Entering / appearing content.
+    --bc-motion-enter-duration: var(--bc-motion-duration-280);
+    --bc-motion-enter-easing: var(--bc-motion-easing-enter);
+    --bc-motion-enter: var(--bc-motion-enter-duration) var(--bc-motion-enter-easing);
+
+    // Exiting / disappearing content.
+    --bc-motion-exit-duration: var(--bc-motion-duration-180);
+    --bc-motion-exit-easing: var(--bc-motion-easing-exit);
+    --bc-motion-exit: var(--bc-motion-exit-duration) var(--bc-motion-exit-easing);
+
+    // Expansion / collapse / disclosure movement.
+    --bc-motion-expand-duration: var(--bc-motion-duration-280);
+    --bc-motion-expand-easing: var(--bc-motion-easing-standard);
+    --bc-motion-expand: var(--bc-motion-expand-duration) var(--bc-motion-expand-easing);
+
+    // Deliberately prominent movement.
+    --bc-motion-emphasis-duration: var(--bc-motion-duration-500);
+    --bc-motion-emphasis-easing: var(--bc-motion-easing-spring);
+    --bc-motion-emphasis: var(--bc-motion-emphasis-duration) var(--bc-motion-emphasis-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --bc-motion-feedback-duration: var(--bc-motion-duration-0);
+        --bc-motion-feedback-easing: var(--bc-motion-easing-standard);
+        --bc-motion-interaction-duration: var(--bc-motion-duration-0);
+        --bc-motion-interaction-easing: var(--bc-motion-easing-standard);
+        --bc-motion-enter-duration: var(--bc-motion-duration-0);
+        --bc-motion-enter-easing: var(--bc-motion-easing-standard);
+        --bc-motion-exit-duration: var(--bc-motion-duration-0);
+        --bc-motion-exit-easing: var(--bc-motion-easing-standard);
+        --bc-motion-expand-duration: var(--bc-motion-duration-0);
+        --bc-motion-expand-easing: var(--bc-motion-easing-standard);
+        --bc-motion-emphasis-duration: var(--bc-motion-duration-0);
+        --bc-motion-emphasis-easing: var(--bc-motion-easing-standard);
+    }
+}

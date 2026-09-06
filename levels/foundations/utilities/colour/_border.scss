@@ -1,0 +1,69 @@
+//
+// Utilities: Colour / Border
+//
+// Public four-role Border utility subset. Status Borders remain Semantic-only.
+//
+
+.bc-color-border-neutral-subtle {
+    border-color: var(--bc-color-border-neutral-subtle);
+}
+
+.bc-color-border-neutral {
+    border-color: var(--bc-color-border-neutral);
+}
+
+.bc-color-border-neutral-strong {
+    border-color: var(--bc-color-border-neutral-strong);
+}
+
+.bc-color-border-neutral-bold {
+    border-color: var(--bc-color-border-neutral-bold);
+}
+
+.bc-color-border-primary-subtle {
+    border-color: var(--bc-color-border-primary-subtle);
+}
+
+.bc-color-border-primary {
+    border-color: var(--bc-color-border-primary);
+}
+
+.bc-color-border-primary-strong {
+    border-color: var(--bc-color-border-primary-strong);
+}
+
+.bc-color-border-primary-bold {
+    border-color: var(--bc-color-border-primary-bold);
+}
+
+.bc-color-border-secondary-subtle {
+    border-color: var(--bc-color-border-secondary-subtle);
+}
+
+.bc-color-border-secondary {
+    border-color: var(--bc-color-border-secondary);
+}
+
+.bc-color-border-secondary-strong {
+    border-color: var(--bc-color-border-secondary-strong);
+}
+
+.bc-color-border-secondary-bold {
+    border-color: var(--bc-color-border-secondary-bold);
+}
+
+.bc-color-border-accent-subtle {
+    border-color: var(--bc-color-border-accent-subtle);
+}
+
+.bc-color-border-accent {
+    border-color: var(--bc-color-border-accent);
+}
+
+.bc-color-border-accent-strong {
+    border-color: var(--bc-color-border-accent-strong);
+}
+
+.bc-color-border-accent-bold {
+    border-color: var(--bc-color-border-accent-bold);
+}

@@ -1,0 +1,24 @@
+{
+  "name": "BufferCore",
+  "schemaVersion": 1,
+  "levels": [
+    "foundations",
+    "layout",
+    "elements",
+    "components",
+    "templates",
+    "pages"
+  ],
+  "modeDimensions": [
+    {
+      "id": "colour-scheme",
+      "values": [
+        "light",
+        "dark"
+      ],
+      "source": {
+        "kind": "path-segment"
+      }
+    }
+  ]
+}

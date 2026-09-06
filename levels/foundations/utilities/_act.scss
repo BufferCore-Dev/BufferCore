@@ -1,0 +1,134 @@
+//
+// Utilities: Act
+//
+// Optional interaction-reaction helpers powered by Shadow Context + Motion.
+//
+// Act is not part of Foundation Shadow or Motion.
+// It simply composes those public contracts for lightweight interactions.
+//
+
+//
+// Elevation capability
+//
+
+.bc-act-elevate {
+    --bc-act-shadow-resting: var(--bc-shadow-context-resting);
+    --bc-act-shadow-hover: var(--bc-shadow-context-floating);
+    --bc-act-shadow-press: var(--bc-shadow-context-fallen);
+    --bc-act-shadow-current: var(--bc-act-shadow-resting);
+
+    box-shadow: var(--bc-act-shadow-current);
+
+    transition:
+        box-shadow var(--bc-motion-interaction);
+
+    will-change: box-shadow;
+}
+
+
+//
+// Optional scale capability
+//
+
+.bc-act-scale {
+    --bc-act-scale-resting: 1;
+    --bc-act-scale-hover: 1.015;
+    --bc-act-scale-press: 0.995;
+    --bc-act-scale-current: var(--bc-act-scale-resting);
+
+    transform: scale(var(--bc-act-scale-current));
+    transform-origin: center;
+
+    transition:
+        transform var(--bc-motion-interaction);
+
+    will-change: transform;
+}
+
+
+//
+// Shadow family bindings
+//
+// These reuse the shared Shadow Context binding contract.
+//
+
+.bc-act-soft {
+    --bc-shadow-context-fallen: var(--bc-shadow-soft-fallen);
+    --bc-shadow-context-resting: var(--bc-shadow-soft-resting);
+    --bc-shadow-context-floating: var(--bc-shadow-soft-floating);
+}
+
+.bc-act-medium {
+    --bc-shadow-context-fallen: var(--bc-shadow-medium-fallen);
+    --bc-shadow-context-resting: var(--bc-shadow-medium-resting);
+    --bc-shadow-context-floating: var(--bc-shadow-medium-floating);
+}
+
+.bc-act-strong {
+    --bc-shadow-context-fallen: var(--bc-shadow-strong-fallen);
+    --bc-shadow-context-resting: var(--bc-shadow-strong-resting);
+    --bc-shadow-context-floating: var(--bc-shadow-strong-floating);
+}
+
+
+//
+// Interaction triggers
+//
+
+.bc-act-hover:hover,
+.bc-act-focus:focus-visible {
+    --bc-act-shadow-current: var(--bc-act-shadow-hover);
+    --bc-act-scale-current: var(--bc-act-scale-hover, 1);
+}
+
+.bc-act-press:active {
+    --bc-act-shadow-current: var(--bc-act-shadow-press);
+    --bc-act-scale-current: var(--bc-act-scale-press, 1);
+}
+
+.bc-act-hover-press:hover {
+    --bc-act-shadow-current: var(--bc-act-shadow-hover);
+    --bc-act-scale-current: var(--bc-act-scale-hover, 1);
+}
+
+.bc-act-hover-press:active {
+    --bc-act-shadow-current: var(--bc-act-shadow-press);
+    --bc-act-scale-current: var(--bc-act-scale-press, 1);
+}
+
+
+//
+// From-none variants
+//
+
+.bc-act-hover-from-none,
+.bc-act-focus-from-none,
+.bc-act-press-from-none,
+.bc-act-hover-press-from-none {
+    --bc-act-shadow-current: none;
+}
+
+.bc-act-hover-from-none:hover,
+.bc-act-focus-from-none:focus-visible,
+.bc-act-hover-press-from-none:hover {
+    --bc-act-shadow-current: var(--bc-act-shadow-hover);
+    --bc-act-scale-current: var(--bc-act-scale-hover, 1);
+}
+
+.bc-act-press-from-none:active,
+.bc-act-hover-press-from-none:active {
+    --bc-act-shadow-current: var(--bc-act-shadow-press);
+    --bc-act-scale-current: var(--bc-act-scale-press, 1);
+}
+
+
+//
+// Reduced motion
+//
+
+@media (prefers-reduced-motion: reduce) {
+    .bc-act-elevate,
+    .bc-act-scale {
+        transition-duration: 0ms;
+    }
+}

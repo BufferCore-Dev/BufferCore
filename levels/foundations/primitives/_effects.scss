@@ -1,0 +1,16 @@
+//
+// Primitives: Effects
+//
+// Raw reusable visual-effect values. Current Primitive scope is Blur.
+//
+
+:root {
+
+    //
+    // Blur
+    //
+    --bc-blur-6: blur(6px);
+    --bc-blur-12: blur(12px);
+    --bc-blur-24: blur(24px);
+
+}

@@ -1,0 +1,235 @@
+//
+// Utilities: Colour / Identity
+//
+// Direct utility access to Semantic Identity design-material tones.
+// Utilities consume Semantic values only.
+//
+
+.bc-color-primary-tint-90 {
+    color: var(--bc-color-primary-tint-90);
+}
+
+.bc-color-primary-tint-80 {
+    color: var(--bc-color-primary-tint-80);
+}
+
+.bc-color-primary-tint-70 {
+    color: var(--bc-color-primary-tint-70);
+}
+
+.bc-color-primary-tint-60 {
+    color: var(--bc-color-primary-tint-60);
+}
+
+.bc-color-primary-tint-50 {
+    color: var(--bc-color-primary-tint-50);
+}
+
+.bc-color-primary-tint-40 {
+    color: var(--bc-color-primary-tint-40);
+}
+
+.bc-color-primary-tint-30 {
+    color: var(--bc-color-primary-tint-30);
+}
+
+.bc-color-primary-tint-20 {
+    color: var(--bc-color-primary-tint-20);
+}
+
+.bc-color-primary-tint-10 {
+    color: var(--bc-color-primary-tint-10);
+}
+
+.bc-color-primary {
+    color: var(--bc-color-primary);
+}
+
+.bc-color-primary-shade-10 {
+    color: var(--bc-color-primary-shade-10);
+}
+
+.bc-color-primary-shade-20 {
+    color: var(--bc-color-primary-shade-20);
+}
+
+.bc-color-primary-shade-30 {
+    color: var(--bc-color-primary-shade-30);
+}
+
+.bc-color-primary-shade-40 {
+    color: var(--bc-color-primary-shade-40);
+}
+
+.bc-color-primary-shade-50 {
+    color: var(--bc-color-primary-shade-50);
+}
+
+.bc-color-primary-shade-60 {
+    color: var(--bc-color-primary-shade-60);
+}
+
+.bc-color-primary-shade-70 {
+    color: var(--bc-color-primary-shade-70);
+}
+
+.bc-color-primary-shade-80 {
+    color: var(--bc-color-primary-shade-80);
+}
+
+.bc-color-primary-shade-90 {
+    color: var(--bc-color-primary-shade-90);
+}
+
+.bc-color-secondary-tint-90 {
+    color: var(--bc-color-secondary-tint-90);
+}
+
+.bc-color-secondary-tint-80 {
+    color: var(--bc-color-secondary-tint-80);
+}
+
+.bc-color-secondary-tint-70 {
+    color: var(--bc-color-secondary-tint-70);
+}
+
+.bc-color-secondary-tint-60 {
+    color: var(--bc-color-secondary-tint-60);
+}
+
+.bc-color-secondary-tint-50 {
+    color: var(--bc-color-secondary-tint-50);
+}
+
+.bc-color-secondary-tint-40 {
+    color: var(--bc-color-secondary-tint-40);
+}
+
+.bc-color-secondary-tint-30 {
+    color: var(--bc-color-secondary-tint-30);
+}
+
+.bc-color-secondary-tint-20 {
+    color: var(--bc-color-secondary-tint-20);
+}
+
+.bc-color-secondary-tint-10 {
+    color: var(--bc-color-secondary-tint-10);
+}
+
+.bc-color-secondary {
+    color: var(--bc-color-secondary);
+}
+
+.bc-color-secondary-shade-10 {
+    color: var(--bc-color-secondary-shade-10);
+}
+
+.bc-color-secondary-shade-20 {
+    color: var(--bc-color-secondary-shade-20);
+}
+
+.bc-color-secondary-shade-30 {
+    color: var(--bc-color-secondary-shade-30);
+}
+
+.bc-color-secondary-shade-40 {
+    color: var(--bc-color-secondary-shade-40);
+}
+
+.bc-color-secondary-shade-50 {
+    color: var(--bc-color-secondary-shade-50);
+}
+
+.bc-color-secondary-shade-60 {
+    color: var(--bc-color-secondary-shade-60);
+}
+
+.bc-color-secondary-shade-70 {
+    color: var(--bc-color-secondary-shade-70);
+}
+
+.bc-color-secondary-shade-80 {
+    color: var(--bc-color-secondary-shade-80);
+}
+
+.bc-color-secondary-shade-90 {
+    color: var(--bc-color-secondary-shade-90);
+}
+
+.bc-color-accent-tint-90 {
+    color: var(--bc-color-accent-tint-90);
+}
+
+.bc-color-accent-tint-80 {
+    color: var(--bc-color-accent-tint-80);
+}
+
+.bc-color-accent-tint-70 {
+    color: var(--bc-color-accent-tint-70);
+}
+
+.bc-color-accent-tint-60 {
+    color: var(--bc-color-accent-tint-60);
+}
+
+.bc-color-accent-tint-50 {
+    color: var(--bc-color-accent-tint-50);
+}
+
+.bc-color-accent-tint-40 {
+    color: var(--bc-color-accent-tint-40);
+}
+
+.bc-color-accent-tint-30 {
+    color: var(--bc-color-accent-tint-30);
+}
+
+.bc-color-accent-tint-20 {
+    color: var(--bc-color-accent-tint-20);
+}
+
+.bc-color-accent-tint-10 {
+    color: var(--bc-color-accent-tint-10);
+}
+
+.bc-color-accent {
+    color: var(--bc-color-accent);
+}
+
+.bc-color-accent-shade-10 {
+    color: var(--bc-color-accent-shade-10);
+}
+
+.bc-color-accent-shade-20 {
+    color: var(--bc-color-accent-shade-20);
+}
+
+.bc-color-accent-shade-30 {
+    color: var(--bc-color-accent-shade-30);
+}
+
+.bc-color-accent-shade-40 {
+    color: var(--bc-color-accent-shade-40);
+}
+
+.bc-color-accent-shade-50 {
+    color: var(--bc-color-accent-shade-50);
+}
+
+.bc-color-accent-shade-60 {
+    color: var(--bc-color-accent-shade-60);
+}
+
+.bc-color-accent-shade-70 {
+    color: var(--bc-color-accent-shade-70);
+}
+
+.bc-color-accent-shade-80 {
+    color: var(--bc-color-accent-shade-80);
+}
+
+.bc-color-accent-shade-90 {
+    color: var(--bc-color-accent-shade-90);
+}
+

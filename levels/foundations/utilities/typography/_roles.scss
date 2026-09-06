@@ -1,0 +1,25 @@
+//
+// Utilities: Typography / Roles
+//
+
+@mixin bc-type-role($family, $index) {
+    font-family: var(--bc-type-#{$family}-#{$index}-font-family);
+    font-size: var(--bc-type-#{$family}-#{$index}-font-size);
+    font-weight: var(--bc-type-#{$family}-#{$index}-font-weight);
+    line-height: var(--bc-type-#{$family}-#{$index}-line-height);
+    letter-spacing: var(--bc-type-#{$family}-#{$index}-letter-spacing);
+}
+
+@for $index from 1 through 6 {
+    .bc-d#{$index} { @include bc-type-role(display, $index); }
+    .bc-h#{$index} { @include bc-type-role(heading, $index); }
+}
+
+@for $index from 1 through 4 {
+    .bc-p#{$index} { @include bc-type-role(paragraph, $index); }
+    .bc-l#{$index} { @include bc-type-role(label, $index); }
+}
+
+@for $index from 1 through 2 {
+    .bc-o#{$index} { @include bc-type-role(overline, $index); }
+}

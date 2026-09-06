@@ -1,0 +1,27 @@
+//
+// Primitives: Motion
+//
+// Raw duration and easing values. Purpose begins at Semantics.
+//
+
+:root {
+
+    //
+    // Duration
+    //
+    --bc-motion-duration-0: 0ms;
+    --bc-motion-duration-120: 120ms;
+    --bc-motion-duration-180: 180ms;
+    --bc-motion-duration-280: 280ms;
+    --bc-motion-duration-500: 500ms;
+
+    //
+    // Easing
+    //
+    --bc-motion-easing-linear: linear;
+    --bc-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+    --bc-motion-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+    --bc-motion-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+    --bc-motion-easing-spring: cubic-bezier(0.22, 1.08, 0.36, 1);
+
+}

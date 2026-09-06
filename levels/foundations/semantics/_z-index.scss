@@ -1,0 +1,20 @@
+//
+// Semantics: Z-index & Layering
+//
+// Purpose-led stacking roles mapped from raw Z-index Primitives.
+//
+
+:root {
+
+    //
+    // Layering
+    //
+    --bc-layer-base: var(--bc-z-value-base);
+    --bc-layer-raised: var(--bc-z-value-raised);
+    --bc-layer-sticky: var(--bc-z-value-sticky);
+    --bc-layer-floating: var(--bc-z-value-floating);
+    --bc-layer-overlay: var(--bc-z-value-overlay);
+    --bc-layer-modal: var(--bc-z-value-modal);
+    --bc-layer-toast: var(--bc-z-value-toast);
+
+}

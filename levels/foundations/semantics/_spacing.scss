@@ -1,0 +1,20 @@
+//
+// Semantics: Spacing
+//
+// Purpose-led responsive spatial roles mapped from Primitive fluid spacing.
+//
+
+:root {
+
+    //
+    // Fluid
+    //
+    --bc-fluid-3xs: var(--bc-size-fluid-3xs);
+    --bc-fluid-2xs: var(--bc-size-fluid-2xs);
+    --bc-fluid-xs: var(--bc-size-fluid-xs);
+    --bc-fluid-sm: var(--bc-size-fluid-sm);
+    --bc-fluid-md: var(--bc-size-fluid-md);
+    --bc-fluid-lg: var(--bc-size-fluid-lg);
+    --bc-fluid-xl: var(--bc-size-fluid-xl);
+
+}

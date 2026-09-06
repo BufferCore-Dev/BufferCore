@@ -1,0 +1,178 @@
+//
+// Utilities: Cursors
+//
+// Direct cursor-value helpers only. Interaction-state recipes and disabled
+// behaviour belong to their owning Elements, Components or Act patterns.
+//
+
+//
+// General
+//
+
+.bc-cursor-auto {
+    cursor: auto;
+}
+
+.bc-cursor-default {
+    cursor: default;
+}
+
+.bc-cursor-none {
+    cursor: none;
+}
+
+//
+// Interaction
+//
+
+.bc-cursor-pointer {
+    cursor: pointer;
+}
+
+.bc-cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+.bc-cursor-help {
+    cursor: help;
+}
+
+.bc-cursor-context-menu {
+    cursor: context-menu;
+}
+
+//
+// Text
+//
+
+.bc-cursor-text {
+    cursor: text;
+}
+
+.bc-cursor-vertical-text {
+    cursor: vertical-text;
+}
+
+//
+// Loading
+//
+
+.bc-cursor-wait {
+    cursor: wait;
+}
+
+.bc-cursor-progress {
+    cursor: progress;
+}
+
+//
+// Movement
+//
+
+.bc-cursor-move {
+    cursor: move;
+}
+
+.bc-cursor-grab {
+    cursor: grab;
+}
+
+.bc-cursor-grabbing {
+    cursor: grabbing;
+}
+
+//
+// Selection
+//
+
+.bc-cursor-cell {
+    cursor: cell;
+}
+
+.bc-cursor-crosshair {
+    cursor: crosshair;
+}
+
+.bc-cursor-copy {
+    cursor: copy;
+}
+
+.bc-cursor-alias {
+    cursor: alias;
+}
+
+//
+// Zoom
+//
+
+.bc-cursor-zoom-in {
+    cursor: zoom-in;
+}
+
+.bc-cursor-zoom-out {
+    cursor: zoom-out;
+}
+
+//
+// Resize
+//
+
+.bc-cursor-resize {
+    cursor: resize;
+}
+
+.bc-cursor-resize-x {
+    cursor: ew-resize;
+}
+
+.bc-cursor-resize-y {
+    cursor: ns-resize;
+}
+
+.bc-cursor-resize-top {
+    cursor: n-resize;
+}
+
+.bc-cursor-resize-right {
+    cursor: e-resize;
+}
+
+.bc-cursor-resize-bottom {
+    cursor: s-resize;
+}
+
+.bc-cursor-resize-left {
+    cursor: w-resize;
+}
+
+.bc-cursor-resize-top-right {
+    cursor: ne-resize;
+}
+
+.bc-cursor-resize-bottom-right {
+    cursor: se-resize;
+}
+
+.bc-cursor-resize-bottom-left {
+    cursor: sw-resize;
+}
+
+.bc-cursor-resize-top-left {
+    cursor: nw-resize;
+}
+
+.bc-cursor-resize-col {
+    cursor: col-resize;
+}
+
+.bc-cursor-resize-row {
+    cursor: row-resize;
+}
+
+//
+// Scroll
+//
+
+.bc-cursor-all-scroll {
+    cursor: all-scroll;
+}

@@ -1,0 +1,50 @@
+//
+// Semantics: Shadows
+//
+// Public layered Shadow recipes.
+//
+// Strength controls visual presence.
+// Fallen / Resting / Floating are Shadow Levels.
+// Primitive Shadow owns geometry/spread/opacity.
+// Colour supplies the environment tint.
+// Motion separately controls transitions between Levels.
+//
+
+@use "sass:list";
+@use "../abstracts/shadow-recipes" as shadow-recipes;
+
+@function bc-shadow-layer($strength, $level, $index) {
+    @return var(--bc-shadow-geometry-#{$strength}-#{$level}-#{$index})
+        var(--bc-shadow-spread-#{$strength}-#{$level}-#{$index})
+        rgba(from var(--bc-color-shadow) r g b / var(--bc-shadow-opacity-#{$strength}-#{$level}-#{$index}));
+}
+
+@function bc-shadow-recipe($strength, $level, $layers) {
+    $value: ();
+
+    @for $index from 1 through list.length($layers) {
+        $value: list.append(
+            $value,
+            bc-shadow-layer($strength, $level, $index),
+            comma
+        );
+    }
+
+    @return $value;
+}
+
+:root {
+    @each $strength, $levels in shadow-recipes.$bc-shadow-recipes {
+        @each $level, $layers in $levels {
+            --bc-shadow-#{$strength}-#{$level}:
+                #{bc-shadow-recipe($strength, $level, $layers)};
+        }
+    }
+
+    //
+    // Context Levels
+    //
+    --bc-shadow-context-fallen: var(--bc-shadow-medium-fallen);
+    --bc-shadow-context-resting: var(--bc-shadow-medium-resting);
+    --bc-shadow-context-floating: var(--bc-shadow-medium-floating);
+}

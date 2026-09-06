@@ -1,0 +1,20 @@
+//
+// Semantics: Radius
+//
+// Public corner-radius roles mapped from the dedicated fixed-px Radius Primitive scale.
+//
+
+:root {
+
+    //
+    // Radius
+    //
+    --bc-radius-none: var(--bc-radius-value-none);
+    --bc-radius-xs: var(--bc-radius-value-xs);
+    --bc-radius-sm: var(--bc-radius-value-sm);
+    --bc-radius-md: var(--bc-radius-value-md);
+    --bc-radius-lg: var(--bc-radius-value-lg);
+    --bc-radius-xl: var(--bc-radius-value-xl);
+    --bc-radius-full: var(--bc-radius-value-full);
+
+}

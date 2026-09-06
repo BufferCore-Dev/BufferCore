@@ -1,0 +1,183 @@
+//
+// Semantics: Typography / Roles
+//
+// Purpose-led Core typography roles mapped from Primitive typography material.
+// HTML semantics remain independent from visual role selection.
+//
+
+:root {
+
+    //
+    // Display
+    //
+    // Display 1
+    --bc-type-display-1-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-1-font-size: var(--bc-type-size-16);
+    --bc-type-display-1-font-weight: var(--bc-type-weight-900);
+    --bc-type-display-1-line-height: var(--bc-type-leading-110);
+    --bc-type-display-1-letter-spacing: var(--bc-type-tracking-1);
+
+    // Display 2
+    --bc-type-display-2-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-2-font-size: var(--bc-type-size-15);
+    --bc-type-display-2-font-weight: var(--bc-type-weight-900);
+    --bc-type-display-2-line-height: var(--bc-type-leading-110);
+    --bc-type-display-2-letter-spacing: var(--bc-type-tracking-1);
+
+    // Display 3
+    --bc-type-display-3-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-3-font-size: var(--bc-type-size-14);
+    --bc-type-display-3-font-weight: var(--bc-type-weight-900);
+    --bc-type-display-3-line-height: var(--bc-type-leading-125);
+    --bc-type-display-3-letter-spacing: var(--bc-type-tracking-1);
+
+    // Display 4
+    --bc-type-display-4-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-4-font-size: var(--bc-type-size-13);
+    --bc-type-display-4-font-weight: var(--bc-type-weight-800);
+    --bc-type-display-4-line-height: var(--bc-type-leading-130);
+    --bc-type-display-4-letter-spacing: var(--bc-type-tracking-1);
+
+    // Display 5
+    --bc-type-display-5-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-5-font-size: var(--bc-type-size-12);
+    --bc-type-display-5-font-weight: var(--bc-type-weight-800);
+    --bc-type-display-5-line-height: var(--bc-type-leading-130);
+    --bc-type-display-5-letter-spacing: var(--bc-type-tracking-1);
+
+    // Display 6
+    --bc-type-display-6-font-family: var(--bc-type-font-family-primary);
+    --bc-type-display-6-font-size: var(--bc-type-size-11);
+    --bc-type-display-6-font-weight: var(--bc-type-weight-800);
+    --bc-type-display-6-line-height: var(--bc-type-leading-130);
+    --bc-type-display-6-letter-spacing: var(--bc-type-tracking-1);
+
+
+    //
+    // Heading
+    //
+    // Heading 1
+    --bc-type-heading-1-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-1-font-size: var(--bc-type-size-10);
+    --bc-type-heading-1-font-weight: var(--bc-type-weight-700);
+    --bc-type-heading-1-line-height: var(--bc-type-leading-130);
+    --bc-type-heading-1-letter-spacing: var(--bc-type-tracking-2);
+
+    // Heading 2
+    --bc-type-heading-2-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-2-font-size: var(--bc-type-size-9);
+    --bc-type-heading-2-font-weight: var(--bc-type-weight-700);
+    --bc-type-heading-2-line-height: var(--bc-type-leading-130);
+    --bc-type-heading-2-letter-spacing: var(--bc-type-tracking-2);
+
+    // Heading 3
+    --bc-type-heading-3-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-3-font-size: var(--bc-type-size-8);
+    --bc-type-heading-3-font-weight: var(--bc-type-weight-700);
+    --bc-type-heading-3-line-height: var(--bc-type-leading-140);
+    --bc-type-heading-3-letter-spacing: var(--bc-type-tracking-2);
+
+    // Heading 4
+    --bc-type-heading-4-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-4-font-size: var(--bc-type-size-7);
+    --bc-type-heading-4-font-weight: var(--bc-type-weight-700);
+    --bc-type-heading-4-line-height: var(--bc-type-leading-140);
+    --bc-type-heading-4-letter-spacing: var(--bc-type-tracking-2);
+
+    // Heading 5
+    --bc-type-heading-5-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-5-font-size: var(--bc-type-size-6);
+    --bc-type-heading-5-font-weight: var(--bc-type-weight-600);
+    --bc-type-heading-5-line-height: var(--bc-type-leading-140);
+    --bc-type-heading-5-letter-spacing: var(--bc-type-tracking-2);
+
+    // Heading 6
+    --bc-type-heading-6-font-family: var(--bc-type-font-family-primary);
+    --bc-type-heading-6-font-size: var(--bc-type-size-5);
+    --bc-type-heading-6-font-weight: var(--bc-type-weight-600);
+    --bc-type-heading-6-line-height: var(--bc-type-leading-140);
+    --bc-type-heading-6-letter-spacing: var(--bc-type-tracking-2);
+
+
+    //
+    // Paragraph
+    //
+    // Paragraph 1
+    --bc-type-paragraph-1-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-paragraph-1-font-size: var(--bc-type-size-4);
+    --bc-type-paragraph-1-font-weight: var(--bc-type-weight-400);
+    --bc-type-paragraph-1-line-height: var(--bc-type-leading-150);
+    --bc-type-paragraph-1-letter-spacing: var(--bc-type-tracking-2);
+
+    // Paragraph 2
+    --bc-type-paragraph-2-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-paragraph-2-font-size: var(--bc-type-size-3);
+    --bc-type-paragraph-2-font-weight: var(--bc-type-weight-400);
+    --bc-type-paragraph-2-line-height: var(--bc-type-leading-150);
+    --bc-type-paragraph-2-letter-spacing: var(--bc-type-tracking-2);
+
+    // Paragraph 3
+    --bc-type-paragraph-3-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-paragraph-3-font-size: var(--bc-type-size-2);
+    --bc-type-paragraph-3-font-weight: var(--bc-type-weight-400);
+    --bc-type-paragraph-3-line-height: var(--bc-type-leading-160);
+    --bc-type-paragraph-3-letter-spacing: var(--bc-type-tracking-2);
+
+    // Paragraph 4
+    --bc-type-paragraph-4-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-paragraph-4-font-size: var(--bc-type-size-1);
+    --bc-type-paragraph-4-font-weight: var(--bc-type-weight-400);
+    --bc-type-paragraph-4-line-height: var(--bc-type-leading-170);
+    --bc-type-paragraph-4-letter-spacing: var(--bc-type-tracking-2);
+
+
+    //
+    // Label
+    //
+    // Label 1
+    --bc-type-label-1-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-label-1-font-size: var(--bc-type-size-4);
+    --bc-type-label-1-font-weight: var(--bc-type-weight-700);
+    --bc-type-label-1-line-height: var(--bc-type-leading-150);
+    --bc-type-label-1-letter-spacing: var(--bc-type-tracking-3);
+
+    // Label 2
+    --bc-type-label-2-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-label-2-font-size: var(--bc-type-size-3);
+    --bc-type-label-2-font-weight: var(--bc-type-weight-500);
+    --bc-type-label-2-line-height: var(--bc-type-leading-150);
+    --bc-type-label-2-letter-spacing: var(--bc-type-tracking-3);
+
+    // Label 3
+    --bc-type-label-3-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-label-3-font-size: var(--bc-type-size-2);
+    --bc-type-label-3-font-weight: var(--bc-type-weight-400);
+    --bc-type-label-3-line-height: var(--bc-type-leading-160);
+    --bc-type-label-3-letter-spacing: var(--bc-type-tracking-3);
+
+    // Label 4
+    --bc-type-label-4-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-label-4-font-size: var(--bc-type-size-1);
+    --bc-type-label-4-font-weight: var(--bc-type-weight-400);
+    --bc-type-label-4-line-height: var(--bc-type-leading-170);
+    --bc-type-label-4-letter-spacing: var(--bc-type-tracking-3);
+
+
+    //
+    // Overline
+    //
+    // Overline 1
+    --bc-type-overline-1-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-overline-1-font-size: var(--bc-type-size-3);
+    --bc-type-overline-1-font-weight: var(--bc-type-weight-700);
+    --bc-type-overline-1-line-height: var(--bc-type-leading-150);
+    --bc-type-overline-1-letter-spacing: var(--bc-type-tracking-10);
+
+    // Overline 2
+    --bc-type-overline-2-font-family: var(--bc-type-font-family-secondary);
+    --bc-type-overline-2-font-size: var(--bc-type-size-2);
+    --bc-type-overline-2-font-weight: var(--bc-type-weight-600);
+    --bc-type-overline-2-line-height: var(--bc-type-leading-150);
+    --bc-type-overline-2-letter-spacing: var(--bc-type-tracking-10);
+
+}

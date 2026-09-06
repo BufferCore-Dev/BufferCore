@@ -1,0 +1,54 @@
+//
+// Semantics: Colour / Dark / Fill
+//
+// Five roles: Subtle → Soft → Base → Strong → Bold. Base is always literal family Base.
+[data-bc-mode="dark"] {
+    --bc-color-fill-neutral-subtle: var(--bc-color-neutral-95);
+    --bc-color-fill-neutral-soft: var(--bc-color-neutral-80);
+    --bc-color-fill-neutral: var(--bc-color-neutral-50);
+    --bc-color-fill-neutral-strong: var(--bc-color-neutral-30);
+    --bc-color-fill-neutral-bold: var(--bc-color-neutral-15);
+
+    --bc-color-fill-primary-subtle: var(--bc-color-identity-ramp-1-shade-90);
+    --bc-color-fill-primary-soft: var(--bc-color-identity-ramp-1-shade-60);
+    --bc-color-fill-primary: var(--bc-color-identity-ramp-1);
+    --bc-color-fill-primary-strong: var(--bc-color-identity-ramp-1-tint-30);
+    --bc-color-fill-primary-bold: var(--bc-color-identity-ramp-1-tint-60);
+
+    --bc-color-fill-secondary-subtle: var(--bc-color-identity-ramp-2-shade-90);
+    --bc-color-fill-secondary-soft: var(--bc-color-identity-ramp-2-shade-60);
+    --bc-color-fill-secondary: var(--bc-color-identity-ramp-2);
+    --bc-color-fill-secondary-strong: var(--bc-color-identity-ramp-2-tint-30);
+    --bc-color-fill-secondary-bold: var(--bc-color-identity-ramp-2-tint-60);
+
+    --bc-color-fill-accent-subtle: var(--bc-color-identity-ramp-3-shade-90);
+    --bc-color-fill-accent-soft: var(--bc-color-identity-ramp-3-shade-60);
+    --bc-color-fill-accent: var(--bc-color-identity-ramp-3);
+    --bc-color-fill-accent-strong: var(--bc-color-identity-ramp-3-tint-30);
+    --bc-color-fill-accent-bold: var(--bc-color-identity-ramp-3-tint-60);
+
+    --bc-color-fill-success-subtle: var(--bc-color-status-success-shade-90);
+    --bc-color-fill-success-soft: var(--bc-color-status-success-shade-60);
+    --bc-color-fill-success: var(--bc-color-status-success);
+    --bc-color-fill-success-strong: var(--bc-color-status-success-tint-30);
+    --bc-color-fill-success-bold: var(--bc-color-status-success-tint-60);
+
+    --bc-color-fill-warning-subtle: var(--bc-color-status-warning-shade-90);
+    --bc-color-fill-warning-soft: var(--bc-color-status-warning-shade-60);
+    --bc-color-fill-warning: var(--bc-color-status-warning);
+    --bc-color-fill-warning-strong: var(--bc-color-status-warning-tint-30);
+    --bc-color-fill-warning-bold: var(--bc-color-status-warning-tint-60);
+
+    --bc-color-fill-error-subtle: var(--bc-color-status-error-shade-90);
+    --bc-color-fill-error-soft: var(--bc-color-status-error-shade-60);
+    --bc-color-fill-error: var(--bc-color-status-error);
+    --bc-color-fill-error-strong: var(--bc-color-status-error-tint-30);
+    --bc-color-fill-error-bold: var(--bc-color-status-error-tint-60);
+
+    --bc-color-fill-info-subtle: var(--bc-color-status-info-shade-90);
+    --bc-color-fill-info-soft: var(--bc-color-status-info-shade-60);
+    --bc-color-fill-info: var(--bc-color-status-info);
+    --bc-color-fill-info-strong: var(--bc-color-status-info-tint-30);
+    --bc-color-fill-info-bold: var(--bc-color-status-info-tint-60);
+
+}

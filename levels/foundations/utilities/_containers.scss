@@ -1,0 +1,32 @@
+//
+// Utilities: Containers
+//
+
+.bc-max-width-content { max-width: var(--bc-container-max-content); }
+.bc-max-width-content-wide { max-width: var(--bc-container-max-content-wide); }
+.bc-max-width-page { max-width: var(--bc-container-max-page); }
+
+.bc-container {
+    width: 100%;
+    margin-inline: auto;
+    max-width: var(--bc-container-max-page);
+    padding-inline: var(--bc-container-gutter-md);
+}
+
+.bc-container-content {
+    width: 100%;
+    margin-inline: auto;
+    max-width: var(--bc-container-max-content);
+    padding-inline: var(--bc-container-gutter-sm);
+}
+
+.bc-container-content-wide {
+    width: 100%;
+    margin-inline: auto;
+    max-width: var(--bc-container-max-content-wide);
+    padding-inline: var(--bc-container-gutter-sm);
+}
+
+.bc-gutter-sm { padding-inline: var(--bc-container-gutter-sm); }
+.bc-gutter { padding-inline: var(--bc-container-gutter-md); }
+.bc-gutter-lg { padding-inline: var(--bc-container-gutter-lg); }

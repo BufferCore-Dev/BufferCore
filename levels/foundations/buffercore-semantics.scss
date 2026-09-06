@@ -1,0 +1,8 @@
+//
+// BufferCore Semantics
+//
+// Public semantic token contract only. Load after primitives when the
+// semantic tokens need access to the raw BufferCore values.
+//
+
+@use "semantics";

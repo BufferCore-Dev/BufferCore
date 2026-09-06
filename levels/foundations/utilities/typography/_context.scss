@@ -1,0 +1,37 @@
+//
+// Utilities: Typography / Context
+//
+
+.bc-type-context {
+    font-family: var(--bc-type-context-font-family);
+    font-size: var(--bc-type-context-font-size);
+    font-weight: var(--bc-type-context-font-weight);
+    line-height: var(--bc-type-context-line-height);
+    letter-spacing: var(--bc-type-context-letter-spacing);
+    font-style: var(--bc-type-context-font-style, normal);
+    text-transform: var(--bc-type-context-text-transform, none);
+}
+
+@mixin bc-type-context-bind($family, $index) {
+    --bc-type-context-font-family: var(--bc-type-#{$family}-#{$index}-font-family);
+    --bc-type-context-font-size: var(--bc-type-#{$family}-#{$index}-font-size);
+    --bc-type-context-font-weight: var(--bc-type-#{$family}-#{$index}-font-weight);
+    --bc-type-context-line-height: var(--bc-type-#{$family}-#{$index}-line-height);
+    --bc-type-context-letter-spacing: var(--bc-type-#{$family}-#{$index}-letter-spacing);
+    --bc-type-context-font-style: normal;
+    --bc-type-context-text-transform: none;
+}
+
+@for $index from 1 through 6 {
+    .bc-type-is-display-#{$index} { @include bc-type-context-bind(display, $index); }
+    .bc-type-is-heading-#{$index} { @include bc-type-context-bind(heading, $index); }
+}
+
+@for $index from 1 through 4 {
+    .bc-type-is-paragraph-#{$index} { @include bc-type-context-bind(paragraph, $index); }
+    .bc-type-is-label-#{$index} { @include bc-type-context-bind(label, $index); }
+}
+
+@for $index from 1 through 2 {
+    .bc-type-is-overline-#{$index} { @include bc-type-context-bind(overline, $index); }
+}

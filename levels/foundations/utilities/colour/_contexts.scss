@@ -1,0 +1,207 @@
+//
+// Utilities: Colour / Context
+//
+
+.bc-color-text-context {
+    color: var(--bc-color-text-context);
+}
+
+.bc-color-text-context-strong {
+    color: var(--bc-color-text-context-strong);
+}
+
+.bc-color-text-context-inverse {
+    color: var(--bc-color-text-context-inverse);
+}
+
+.bc-color-text-context-inverse-strong {
+    color: var(--bc-color-text-context-inverse-strong);
+}
+
+.bc-color-fill-context-subtle {
+    background-color: var(--bc-color-fill-context-subtle);
+}
+
+.bc-color-fill-context-soft {
+    background-color: var(--bc-color-fill-context-soft);
+}
+
+.bc-color-fill-context {
+    background-color: var(--bc-color-fill-context);
+}
+
+.bc-color-fill-context-strong {
+    background-color: var(--bc-color-fill-context-strong);
+}
+
+.bc-color-fill-context-bold {
+    background-color: var(--bc-color-fill-context-bold);
+}
+
+.bc-color-border-context-subtle {
+    border-color: var(--bc-color-border-context-subtle);
+}
+
+.bc-color-border-context {
+    border-color: var(--bc-color-border-context);
+}
+
+.bc-color-border-context-strong {
+    border-color: var(--bc-color-border-context-strong);
+}
+
+.bc-color-border-context-bold {
+    border-color: var(--bc-color-border-context-bold);
+}
+
+.bc-color-surface-context {
+    background-color: var(--bc-color-surface-context);
+}
+
+.bc-color-surface-context-strong {
+    background-color: var(--bc-color-surface-context-strong);
+}
+
+.bc-is-neutral {
+    --bc-color-text-context: var(--bc-color-text);
+    --bc-color-text-context-strong: var(--bc-color-text);
+    --bc-color-text-context-inverse: var(--bc-color-text-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-inverse);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-neutral-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-neutral-soft);
+    --bc-color-fill-context: var(--bc-color-fill-neutral);
+    --bc-color-fill-context-strong: var(--bc-color-fill-neutral-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-neutral-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-neutral-subtle);
+    --bc-color-border-context: var(--bc-color-border-neutral);
+    --bc-color-border-context-strong: var(--bc-color-border-neutral-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-neutral-bold);
+    --bc-color-surface-context: var(--bc-color-surface-general-primary);
+    --bc-color-surface-context-strong: var(--bc-color-surface-general-primary-strong);
+}
+
+.bc-is-primary {
+    --bc-color-text-context: var(--bc-color-text-primary);
+    --bc-color-text-context-strong: var(--bc-color-text-primary-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-primary-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-primary-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-primary-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-primary-soft);
+    --bc-color-fill-context: var(--bc-color-fill-primary);
+    --bc-color-fill-context-strong: var(--bc-color-fill-primary-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-primary-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-primary-subtle);
+    --bc-color-border-context: var(--bc-color-border-primary);
+    --bc-color-border-context-strong: var(--bc-color-border-primary-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-primary-bold);
+    --bc-color-surface-context: var(--bc-color-surface-identity-primary);
+    --bc-color-surface-context-strong: var(--bc-color-surface-identity-primary-strong);
+}
+
+.bc-is-secondary {
+    --bc-color-text-context: var(--bc-color-text-secondary);
+    --bc-color-text-context-strong: var(--bc-color-text-secondary-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-secondary-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-secondary-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-secondary-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-secondary-soft);
+    --bc-color-fill-context: var(--bc-color-fill-secondary);
+    --bc-color-fill-context-strong: var(--bc-color-fill-secondary-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-secondary-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-secondary-subtle);
+    --bc-color-border-context: var(--bc-color-border-secondary);
+    --bc-color-border-context-strong: var(--bc-color-border-secondary-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-secondary-bold);
+    --bc-color-surface-context: var(--bc-color-surface-identity-secondary);
+    --bc-color-surface-context-strong: var(--bc-color-surface-identity-secondary-strong);
+}
+
+.bc-is-accent {
+    --bc-color-text-context: var(--bc-color-text-accent);
+    --bc-color-text-context-strong: var(--bc-color-text-accent-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-accent-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-accent-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-accent-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-accent-soft);
+    --bc-color-fill-context: var(--bc-color-fill-accent);
+    --bc-color-fill-context-strong: var(--bc-color-fill-accent-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-accent-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-accent-subtle);
+    --bc-color-border-context: var(--bc-color-border-accent);
+    --bc-color-border-context-strong: var(--bc-color-border-accent-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-accent-bold);
+    --bc-color-surface-context: var(--bc-color-surface-identity-accent);
+    --bc-color-surface-context-strong: var(--bc-color-surface-identity-accent-strong);
+}
+
+.bc-is-success {
+    --bc-color-text-context: var(--bc-color-text-success);
+    --bc-color-text-context-strong: var(--bc-color-text-success-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-success-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-success-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-success-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-success-soft);
+    --bc-color-fill-context: var(--bc-color-fill-success);
+    --bc-color-fill-context-strong: var(--bc-color-fill-success-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-success-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-success-subtle);
+    --bc-color-border-context: var(--bc-color-border-success);
+    --bc-color-border-context-strong: var(--bc-color-border-success-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-success-bold);
+    --bc-color-surface-context: var(--bc-color-surface-success);
+    --bc-color-surface-context-strong: var(--bc-color-surface-success-strong);
+}
+
+.bc-is-warning {
+    --bc-color-text-context: var(--bc-color-text-warning);
+    --bc-color-text-context-strong: var(--bc-color-text-warning-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-warning-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-warning-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-warning-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-warning-soft);
+    --bc-color-fill-context: var(--bc-color-fill-warning);
+    --bc-color-fill-context-strong: var(--bc-color-fill-warning-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-warning-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-warning-subtle);
+    --bc-color-border-context: var(--bc-color-border-warning);
+    --bc-color-border-context-strong: var(--bc-color-border-warning-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-warning-bold);
+    --bc-color-surface-context: var(--bc-color-surface-warning);
+    --bc-color-surface-context-strong: var(--bc-color-surface-warning-strong);
+}
+
+.bc-is-error {
+    --bc-color-text-context: var(--bc-color-text-error);
+    --bc-color-text-context-strong: var(--bc-color-text-error-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-error-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-error-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-error-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-error-soft);
+    --bc-color-fill-context: var(--bc-color-fill-error);
+    --bc-color-fill-context-strong: var(--bc-color-fill-error-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-error-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-error-subtle);
+    --bc-color-border-context: var(--bc-color-border-error);
+    --bc-color-border-context-strong: var(--bc-color-border-error-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-error-bold);
+    --bc-color-surface-context: var(--bc-color-surface-error);
+    --bc-color-surface-context-strong: var(--bc-color-surface-error-strong);
+}
+
+.bc-is-info {
+    --bc-color-text-context: var(--bc-color-text-info);
+    --bc-color-text-context-strong: var(--bc-color-text-info-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-info-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-info-inverse-strong);
+    --bc-color-fill-context-subtle: var(--bc-color-fill-info-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-info-soft);
+    --bc-color-fill-context: var(--bc-color-fill-info);
+    --bc-color-fill-context-strong: var(--bc-color-fill-info-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-info-bold);
+    --bc-color-border-context-subtle: var(--bc-color-border-info-subtle);
+    --bc-color-border-context: var(--bc-color-border-info);
+    --bc-color-border-context-strong: var(--bc-color-border-info-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-info-bold);
+    --bc-color-surface-context: var(--bc-color-surface-info);
+    --bc-color-surface-context-strong: var(--bc-color-surface-info-strong);
+}

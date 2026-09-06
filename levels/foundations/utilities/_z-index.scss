@@ -1,0 +1,11 @@
+//
+// Utilities: Z-index & Layering
+//
+
+$bc-layer-roles: (base, raised, sticky, floating, overlay, modal, toast);
+
+@each $role in $bc-layer-roles {
+    .bc-layer-#{$role} {
+        z-index: var(--bc-layer-#{$role});
+    }
+}

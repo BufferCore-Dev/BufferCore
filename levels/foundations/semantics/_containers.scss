@@ -1,0 +1,23 @@
+//
+// Semantics: Containers
+//
+// Purpose-led content/page maximum widths and container gutters. Distinct from the BufferCore Layout level.
+//
+
+:root {
+
+    //
+    // Maximum Width
+    //
+    --bc-container-max-content: var(--bc-container-width-sm);
+    --bc-container-max-content-wide: var(--bc-container-width-md);
+    --bc-container-max-page: var(--bc-container-width-lg);
+
+    //
+    // Gutters
+    //
+    --bc-container-gutter-sm: var(--bc-container-space-sm);
+    --bc-container-gutter-md: var(--bc-container-space-md);
+    --bc-container-gutter-lg: var(--bc-container-space-lg);
+
+}

@@ -1,0 +1,11 @@
+//
+// Utilities: Radius
+//
+
+$bc-radius-sizes: (none, xs, sm, md, lg, xl, full);
+
+@each $size in $bc-radius-sizes {
+    .bc-radius-#{$size} {
+        border-radius: var(--bc-radius-#{$size});
+    }
+}

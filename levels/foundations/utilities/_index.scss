@@ -1,0 +1,32 @@
+//
+// Utilities
+//
+// Foundation utilities consume Semantic tokens.
+// Generic CSS utilities remain separate from Foundation domains.
+//
+
+@use "colour";
+
+@use "typography";
+@use "spacing";
+@use "sizing";
+@use "borders";
+@use "radius";
+@use "shadows";
+@use "containers";
+@use "effects";
+@use "z-index";
+@use "motion";
+@use "breakpoints";
+
+// Generic Utility infrastructure.
+@use "display";
+@use "flex";
+@use "grid";
+@use "alignment";
+@use "position";
+@use "overflow";
+@use "object-fit";
+@use "aspect-ratio";
+@use "cursor";
+@use "act";

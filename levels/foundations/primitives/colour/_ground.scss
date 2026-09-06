@@ -1,0 +1,10 @@
+//
+// Primitives: Colour / Ground
+//
+// Ground is Canvas-only. Only the three Base source values are required.
+// No Ground tonal family is exposed at Semantic or Utility level.
+:root {
+    --bc-color-ground-ramp-1: initial;
+    --bc-color-ground-ramp-2: initial;
+    --bc-color-ground-ramp-3: initial;
+}

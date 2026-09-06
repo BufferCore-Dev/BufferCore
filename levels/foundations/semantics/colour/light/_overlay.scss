@@ -1,0 +1,10 @@
+//
+// Semantics: Colour / Light / Overlay
+//
+// Overlay values derive from the opposing Neutral endpoint.
+:root,
+[data-bc-mode="light"] {
+    --bc-color-overlay-soft: color-mix(in srgb, var(--bc-color-neutral-100) 24%, transparent);
+    --bc-color-overlay: color-mix(in srgb, var(--bc-color-neutral-100) 48%, transparent);
+    --bc-color-overlay-strong: color-mix(in srgb, var(--bc-color-neutral-100) 72%, transparent);
+}

@@ -1,0 +1,27 @@
+//
+// Utilities: Colour / Text
+//
+// Public Text utility subset. Status Text remains Semantic-only.
+//
+
+.bc-color-text-muted { color: var(--bc-color-text-muted); }
+.bc-color-text-subtle { color: var(--bc-color-text-subtle); }
+.bc-color-text { color: var(--bc-color-text); }
+.bc-color-text-inverse-muted { color: var(--bc-color-text-inverse-muted); }
+.bc-color-text-inverse-subtle { color: var(--bc-color-text-inverse-subtle); }
+.bc-color-text-inverse { color: var(--bc-color-text-inverse); }
+
+.bc-color-text-primary { color: var(--bc-color-text-primary); }
+.bc-color-text-primary-strong { color: var(--bc-color-text-primary-strong); }
+.bc-color-text-primary-inverse { color: var(--bc-color-text-primary-inverse); }
+.bc-color-text-primary-inverse-strong { color: var(--bc-color-text-primary-inverse-strong); }
+
+.bc-color-text-secondary { color: var(--bc-color-text-secondary); }
+.bc-color-text-secondary-strong { color: var(--bc-color-text-secondary-strong); }
+.bc-color-text-secondary-inverse { color: var(--bc-color-text-secondary-inverse); }
+.bc-color-text-secondary-inverse-strong { color: var(--bc-color-text-secondary-inverse-strong); }
+
+.bc-color-text-accent { color: var(--bc-color-text-accent); }
+.bc-color-text-accent-strong { color: var(--bc-color-text-accent-strong); }
+.bc-color-text-accent-inverse { color: var(--bc-color-text-accent-inverse); }
+.bc-color-text-accent-inverse-strong { color: var(--bc-color-text-accent-inverse-strong); }

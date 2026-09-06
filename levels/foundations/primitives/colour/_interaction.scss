@@ -1,0 +1,13 @@
+//
+// Primitives: Colour / Interaction
+//
+// Dedicated mode-independent interaction sources.
+// Normal/Inverse source interpretation flips contextually at Semantic Dark mode.
+:root {
+    --bc-color-interaction-link: initial;
+    --bc-color-interaction-link-inverse: initial;
+    --bc-color-interaction-link-visited: initial;
+    --bc-color-interaction-link-visited-inverse: initial;
+    --bc-color-interaction-focus: initial;
+    --bc-color-interaction-focus-inverse: initial;
+}

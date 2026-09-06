@@ -1,0 +1,55 @@
+//
+// Utilities: Borders
+//
+// Built Neutral presets compose Border geometry with Colour Semantics.
+//
+
+.bc-border {
+    border-style: solid;
+    border-width: var(--bc-border-width-xs);
+    border-color: var(--bc-color-border-neutral);
+}
+
+.bc-border-subtle {
+    border-style: solid;
+    border-width: var(--bc-border-width-xs);
+    border-color: var(--bc-color-border-neutral-subtle);
+}
+
+.bc-border-strong {
+    border-style: solid;
+    border-width: var(--bc-border-width-sm);
+    border-color: var(--bc-color-border-neutral-strong);
+}
+
+.bc-border-bold {
+    border-style: solid;
+    border-width: var(--bc-border-width-sm);
+    border-color: var(--bc-color-border-neutral-bold);
+}
+
+$bc-border-widths: (0, xs, sm, md, lg, xl, 2xl);
+
+@each $size in $bc-border-widths {
+    .bc-border-width-#{$size} { border-width: var(--bc-border-width-#{$size}); }
+    .bc-border-t-width-#{$size} { border-top-width: var(--bc-border-width-#{$size}); }
+    .bc-border-r-width-#{$size} { border-right-width: var(--bc-border-width-#{$size}); }
+    .bc-border-b-width-#{$size} { border-bottom-width: var(--bc-border-width-#{$size}); }
+    .bc-border-l-width-#{$size} { border-left-width: var(--bc-border-width-#{$size}); }
+}
+
+$bc-border-styles: (solid, dashed, dotted);
+
+@each $style in $bc-border-styles {
+    .bc-border-style-#{$style} { border-style: #{$style}; }
+    .bc-border-t-style-#{$style} { border-top-style: #{$style}; }
+    .bc-border-r-style-#{$style} { border-right-style: #{$style}; }
+    .bc-border-b-style-#{$style} { border-bottom-style: #{$style}; }
+    .bc-border-l-style-#{$style} { border-left-style: #{$style}; }
+}
+
+.bc-border-none { border: none; }
+.bc-border-t-none { border-top: none; }
+.bc-border-r-none { border-right: none; }
+.bc-border-b-none { border-bottom: none; }
+.bc-border-l-none { border-left: none; }

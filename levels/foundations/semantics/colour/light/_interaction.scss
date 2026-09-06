@@ -1,0 +1,23 @@
+//
+// Semantics: Colour / Light / Interaction
+//
+// Link / Visited / Focus normal-inverse Primitive source relationship flips in Dark mode.
+:root,
+[data-bc-mode="light"] {
+    --bc-color-link: var(--bc-color-interaction-link);
+    --bc-color-link-inverse: var(--bc-color-interaction-link-inverse);
+    --bc-color-link-visited: var(--bc-color-interaction-link-visited);
+    --bc-color-link-visited-inverse: var(--bc-color-interaction-link-visited-inverse);
+    --bc-color-focus: var(--bc-color-interaction-focus);
+    --bc-color-focus-inverse: var(--bc-color-interaction-focus-inverse);
+
+    --bc-color-placeholder: var(--bc-color-neutral-60);
+    --bc-color-placeholder-inverse: var(--bc-color-neutral-40);
+
+    --bc-color-disabled-text: var(--bc-color-neutral-60);
+    --bc-color-disabled-text-inverse: var(--bc-color-neutral-40);
+    --bc-color-disabled-fill: var(--bc-color-neutral-20);
+    --bc-color-disabled-fill-inverse: var(--bc-color-neutral-80);
+    --bc-color-disabled-border: var(--bc-color-neutral-30);
+    --bc-color-disabled-border-inverse: var(--bc-color-neutral-70);
+}

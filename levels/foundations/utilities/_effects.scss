@@ -1,0 +1,20 @@
+//
+// Utilities: Effects
+//
+// Opt-in application helpers for semantic visual effects.
+//
+
+//
+// Backdrop Blur
+//
+.bc-backdrop-blur-soft {
+    backdrop-filter: var(--bc-blur-soft);
+}
+
+.bc-backdrop-blur-medium {
+    backdrop-filter: var(--bc-blur-medium);
+}
+
+.bc-backdrop-blur-strong {
+    backdrop-filter: var(--bc-blur-strong);
+}

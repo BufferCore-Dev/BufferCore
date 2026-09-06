@@ -1,0 +1,15 @@
+//
+// Utilities: Colour / Interaction
+//
+// Public Interaction utility subset.
+// Disabled-state Semantic tokens are intentionally not mirrored as public utilities.
+//
+
+.bc-color-link { color: var(--bc-color-link); }
+.bc-color-link-inverse { color: var(--bc-color-link-inverse); }
+.bc-color-link-visited { color: var(--bc-color-link-visited); }
+.bc-color-link-visited-inverse { color: var(--bc-color-link-visited-inverse); }
+.bc-color-focus { outline-color: var(--bc-color-focus); }
+.bc-color-focus-inverse { outline-color: var(--bc-color-focus-inverse); }
+.bc-color-placeholder { color: var(--bc-color-placeholder); }
+.bc-color-placeholder-inverse { color: var(--bc-color-placeholder-inverse); }

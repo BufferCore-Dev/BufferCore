@@ -1,0 +1,19 @@
+//
+// Semantics: Typography / Context
+//
+// Stable consumer-facing typography targets.
+// These hooks are intentionally unbound by default.
+// A Core role binding, Element, Component or client/theme layer supplies them.
+// Context creates no new design values; it is a binding interface.
+//
+
+:root {
+    --bc-type-context-font-family: initial;
+    --bc-type-context-font-size: initial;
+    --bc-type-context-font-weight: initial;
+    --bc-type-context-line-height: initial;
+    --bc-type-context-letter-spacing: initial;
+    --bc-type-context-font-style: initial;
+    --bc-type-context-text-transform: initial;
+
+}

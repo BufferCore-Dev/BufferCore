@@ -1,0 +1,31 @@
+//
+// Utilities: Alignment
+//
+// Generic alignment and justification helpers.
+//
+
+// Align items
+.bc-items-start { align-items: flex-start; }
+.bc-items-center { align-items: center; }
+.bc-items-end { align-items: flex-end; }
+.bc-items-stretch { align-items: stretch; }
+
+// Align content
+.bc-content-start { align-content: flex-start; }
+.bc-content-center { align-content: center; }
+.bc-content-end { align-content: flex-end; }
+.bc-content-stretch { align-content: stretch; }
+
+// Justify content
+.bc-justify-start { justify-content: flex-start; }
+.bc-justify-center { justify-content: center; }
+.bc-justify-end { justify-content: flex-end; }
+.bc-justify-between { justify-content: space-between; }
+.bc-justify-around { justify-content: space-around; }
+.bc-justify-evenly { justify-content: space-evenly; }
+
+// Justify items
+.bc-justify-items-start { justify-items: start; }
+.bc-justify-items-center { justify-items: center; }
+.bc-justify-items-end { justify-items: end; }
+.bc-justify-items-stretch { justify-items: stretch; }

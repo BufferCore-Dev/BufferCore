@@ -1,0 +1,83 @@
+//
+// Abstracts: Breakpoints
+//
+// Internal Sass-only breakpoint source. This file emits no CSS.
+//
+// BufferCore uses viewport/layout bands rather than device names.
+// Raw breakpoint material uses flavour-safe ordered tiers. Small is the
+// default responsive band below Medium; the raw `sm` tier does not define
+// the start of that band.
+//
+
+@use "sass:map";
+
+$values: (
+    sm: 320px,
+    md: 800px,
+    lg: 1260px,
+    xl: 1920px,
+);
+
+$bands: (
+    small: 0px,
+    medium: map.get($values, md),
+    large: map.get($values, lg),
+);
+
+$references: (
+    minimum: map.get($values, sm),
+    wide: map.get($values, xl),
+);
+
+// Prevent adjacent max/min queries from overlapping at the same pixel value.
+$boundary-epsilon: 0.02px;
+
+@function value($key) {
+    @if not map.has-key($values, $key) {
+        @error "Unknown BufferCore breakpoint tier `#{$key}`.";
+    }
+
+    @return map.get($values, $key);
+}
+
+@function band-start($band) {
+    @if not map.has-key($bands, $band) {
+        @error "Unknown BufferCore breakpoint band `#{$band}`.";
+    }
+
+    @return map.get($bands, $band);
+}
+
+@function next-band($band) {
+    @if $band == small {
+        @return medium;
+    }
+
+    @if $band == medium {
+        @return large;
+    }
+
+    @if $band == large {
+        @return null;
+    }
+
+    @error "Unknown BufferCore breakpoint band `#{$band}`.";
+}
+
+@function band-end($band) {
+    $next: next-band($band);
+
+    @if $next == null {
+        @return null;
+    }
+
+    @return band-start($next) - $boundary-epsilon;
+}
+
+@function reference($name) {
+    @if not map.has-key($references, $name) {
+        @error "Unknown BufferCore viewport reference `#{$name}`.";
+    }
+
+    @return map.get($references, $name);
+}

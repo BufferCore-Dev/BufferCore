@@ -1,0 +1,28 @@
+//
+// Utilities: Shadows
+//
+
+$bc-shadow-strengths: (soft, medium, strong);
+$bc-shadow-levels: (fallen, resting, floating);
+
+@each $strength in $bc-shadow-strengths {
+    @each $level in $bc-shadow-levels {
+        .bc-shadow-#{$strength}-#{$level} {
+            box-shadow: var(--bc-shadow-#{$strength}-#{$level});
+        }
+    }
+}
+
+@each $level in $bc-shadow-levels {
+    .bc-shadow-context-#{$level} {
+        box-shadow: var(--bc-shadow-context-#{$level});
+    }
+}
+
+@each $strength in $bc-shadow-strengths {
+    .bc-shadow-is-#{$strength} {
+        --bc-shadow-context-fallen: var(--bc-shadow-#{$strength}-fallen);
+        --bc-shadow-context-resting: var(--bc-shadow-#{$strength}-resting);
+        --bc-shadow-context-floating: var(--bc-shadow-#{$strength}-floating);
+    }
+}

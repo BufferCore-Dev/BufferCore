@@ -1,0 +1,16 @@
+//
+// Semantics: Effects
+//
+// Purpose-led visual-effect roles. Current Semantic scope is Blur.
+//
+
+:root {
+
+    //
+    // Blur
+    //
+    --bc-blur-soft: var(--bc-blur-6);
+    --bc-blur-medium: var(--bc-blur-12);
+    --bc-blur-strong: var(--bc-blur-24);
+
+}

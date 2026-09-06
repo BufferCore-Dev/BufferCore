@@ -1,0 +1,74 @@
+//
+// Reset: Typography
+//
+// Native document typography uses the current public Semantic Typography roles.
+// Utility-only builds do not style naked HTML elements.
+//
+
+body {
+    font-family: var(--bc-type-paragraph-2-font-family);
+    font-size: var(--bc-type-paragraph-2-font-size);
+    font-weight: var(--bc-type-paragraph-2-font-weight);
+    line-height: var(--bc-type-paragraph-2-line-height);
+    letter-spacing: var(--bc-type-paragraph-2-letter-spacing);
+    color: var(--bc-color-text);
+}
+
+p {
+    font-family: var(--bc-type-paragraph-2-font-family);
+    font-size: var(--bc-type-paragraph-2-font-size);
+    font-weight: var(--bc-type-paragraph-2-font-weight);
+    line-height: var(--bc-type-paragraph-2-line-height);
+    letter-spacing: var(--bc-type-paragraph-2-letter-spacing);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--bc-type-heading-1-font-family);
+}
+
+h1 {
+    font-size: var(--bc-type-heading-1-font-size);
+    font-weight: var(--bc-type-heading-1-font-weight);
+    line-height: var(--bc-type-heading-1-line-height);
+    letter-spacing: var(--bc-type-heading-1-letter-spacing);
+}
+
+h2 {
+    font-size: var(--bc-type-heading-2-font-size);
+    font-weight: var(--bc-type-heading-2-font-weight);
+    line-height: var(--bc-type-heading-2-line-height);
+    letter-spacing: var(--bc-type-heading-2-letter-spacing);
+}
+
+h3 {
+    font-size: var(--bc-type-heading-3-font-size);
+    font-weight: var(--bc-type-heading-3-font-weight);
+    line-height: var(--bc-type-heading-3-line-height);
+    letter-spacing: var(--bc-type-heading-3-letter-spacing);
+}
+
+h4 {
+    font-size: var(--bc-type-heading-4-font-size);
+    font-weight: var(--bc-type-heading-4-font-weight);
+    line-height: var(--bc-type-heading-4-line-height);
+    letter-spacing: var(--bc-type-heading-4-letter-spacing);
+}
+
+h5 {
+    font-size: var(--bc-type-heading-5-font-size);
+    font-weight: var(--bc-type-heading-5-font-weight);
+    line-height: var(--bc-type-heading-5-line-height);
+    letter-spacing: var(--bc-type-heading-5-letter-spacing);
+}
+
+h6 {
+    font-size: var(--bc-type-heading-6-font-size);
+    font-weight: var(--bc-type-heading-6-font-weight);
+    line-height: var(--bc-type-heading-6-line-height);
+    letter-spacing: var(--bc-type-heading-6-letter-spacing);
+}

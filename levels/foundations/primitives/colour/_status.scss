@@ -1,0 +1,91 @@
+//
+// Primitives: Colour / Status
+//
+// Project values intentionally left unset.
+// Each Status Base owns a generated Tint/Shade Tone family.
+:root {
+    // Success
+    --bc-color-status-success-tint-90: initial;
+    --bc-color-status-success-tint-80: initial;
+    --bc-color-status-success-tint-70: initial;
+    --bc-color-status-success-tint-60: initial;
+    --bc-color-status-success-tint-50: initial;
+    --bc-color-status-success-tint-40: initial;
+    --bc-color-status-success-tint-30: initial;
+    --bc-color-status-success-tint-20: initial;
+    --bc-color-status-success-tint-10: initial;
+    --bc-color-status-success: initial;
+    --bc-color-status-success-shade-10: initial;
+    --bc-color-status-success-shade-20: initial;
+    --bc-color-status-success-shade-30: initial;
+    --bc-color-status-success-shade-40: initial;
+    --bc-color-status-success-shade-50: initial;
+    --bc-color-status-success-shade-60: initial;
+    --bc-color-status-success-shade-70: initial;
+    --bc-color-status-success-shade-80: initial;
+    --bc-color-status-success-shade-90: initial;
+
+    // Warning
+    --bc-color-status-warning-tint-90: initial;
+    --bc-color-status-warning-tint-80: initial;
+    --bc-color-status-warning-tint-70: initial;
+    --bc-color-status-warning-tint-60: initial;
+    --bc-color-status-warning-tint-50: initial;
+    --bc-color-status-warning-tint-40: initial;
+    --bc-color-status-warning-tint-30: initial;
+    --bc-color-status-warning-tint-20: initial;
+    --bc-color-status-warning-tint-10: initial;
+    --bc-color-status-warning: initial;
+    --bc-color-status-warning-shade-10: initial;
+    --bc-color-status-warning-shade-20: initial;
+    --bc-color-status-warning-shade-30: initial;
+    --bc-color-status-warning-shade-40: initial;
+    --bc-color-status-warning-shade-50: initial;
+    --bc-color-status-warning-shade-60: initial;
+    --bc-color-status-warning-shade-70: initial;
+    --bc-color-status-warning-shade-80: initial;
+    --bc-color-status-warning-shade-90: initial;
+
+    // Error
+    --bc-color-status-error-tint-90: initial;
+    --bc-color-status-error-tint-80: initial;
+    --bc-color-status-error-tint-70: initial;
+    --bc-color-status-error-tint-60: initial;
+    --bc-color-status-error-tint-50: initial;
+    --bc-color-status-error-tint-40: initial;
+    --bc-color-status-error-tint-30: initial;
+    --bc-color-status-error-tint-20: initial;
+    --bc-color-status-error-tint-10: initial;
+    --bc-color-status-error: initial;
+    --bc-color-status-error-shade-10: initial;
+    --bc-color-status-error-shade-20: initial;
+    --bc-color-status-error-shade-30: initial;
+    --bc-color-status-error-shade-40: initial;
+    --bc-color-status-error-shade-50: initial;
+    --bc-color-status-error-shade-60: initial;
+    --bc-color-status-error-shade-70: initial;
+    --bc-color-status-error-shade-80: initial;
+    --bc-color-status-error-shade-90: initial;
+
+    // Info
+    --bc-color-status-info-tint-90: initial;
+    --bc-color-status-info-tint-80: initial;
+    --bc-color-status-info-tint-70: initial;
+    --bc-color-status-info-tint-60: initial;
+    --bc-color-status-info-tint-50: initial;
+    --bc-color-status-info-tint-40: initial;
+    --bc-color-status-info-tint-30: initial;
+    --bc-color-status-info-tint-20: initial;
+    --bc-color-status-info-tint-10: initial;
+    --bc-color-status-info: initial;
+    --bc-color-status-info-shade-10: initial;
+    --bc-color-status-info-shade-20: initial;
+    --bc-color-status-info-shade-30: initial;
+    --bc-color-status-info-shade-40: initial;
+    --bc-color-status-info-shade-50: initial;
+    --bc-color-status-info-shade-60: initial;
+    --bc-color-status-info-shade-70: initial;
+    --bc-color-status-info-shade-80: initial;
+    --bc-color-status-info-shade-90: initial;
+
+}

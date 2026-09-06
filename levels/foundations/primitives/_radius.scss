@@ -1,0 +1,20 @@
+//
+// Primitives: Radius
+//
+// Raw fixed corner-radius geometry. Radius intentionally uses px rather than rem.
+//
+
+:root {
+
+    //
+    // Radius
+    //
+    --bc-radius-value-none: 0px;
+    --bc-radius-value-xs: 4px;
+    --bc-radius-value-sm: 8px;
+    --bc-radius-value-md: 16px;
+    --bc-radius-value-lg: 24px;
+    --bc-radius-value-xl: 32px;
+    --bc-radius-value-full: 99999px;
+
+}

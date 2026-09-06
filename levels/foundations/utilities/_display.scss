@@ -1,0 +1,124 @@
+//
+// Utilities: Display
+//
+// Direct display helpers plus a deliberately small responsive display API.
+//
+
+@use "../semantics/breakpoints";
+
+
+//
+// Base Display
+//
+
+.bc-block {
+    display: block;
+}
+
+.bc-inline {
+    display: inline;
+}
+
+.bc-inline-block {
+    display: inline-block;
+}
+
+.bc-display-none {
+    display: none;
+}
+
+
+//
+// Responsive Positive Display
+//
+// Small is the default band. Responsive helpers target the shared Medium and
+// Large thresholds only.
+//
+
+@include breakpoints.up(medium) {
+    .bc-block-from-md {
+        display: block;
+    }
+
+    .bc-inline-from-md {
+        display: inline;
+    }
+
+    .bc-inline-block-from-md {
+        display: inline-block;
+    }
+}
+
+@include breakpoints.up(large) {
+    .bc-block-from-lg {
+        display: block;
+    }
+
+    .bc-inline-from-lg {
+        display: inline;
+    }
+
+    .bc-inline-block-from-lg {
+        display: inline-block;
+    }
+}
+
+@include breakpoints.down(medium) {
+    .bc-block-below-md {
+        display: block;
+    }
+
+    .bc-inline-below-md {
+        display: inline;
+    }
+
+    .bc-inline-block-below-md {
+        display: inline-block;
+    }
+}
+
+@include breakpoints.down(large) {
+    .bc-block-below-lg {
+        display: block;
+    }
+
+    .bc-inline-below-lg {
+        display: inline;
+    }
+
+    .bc-inline-block-below-lg {
+        display: inline-block;
+    }
+}
+
+
+//
+// Responsive Display None
+//
+// Hide rules intentionally come after positive responsive display rules so an
+// explicit responsive `display: none` wins when composed ranges overlap.
+//
+
+@include breakpoints.up(medium) {
+    .bc-display-none-from-md {
+        display: none;
+    }
+}
+
+@include breakpoints.up(large) {
+    .bc-display-none-from-lg {
+        display: none;
+    }
+}
+
+@include breakpoints.down(medium) {
+    .bc-display-none-below-md {
+        display: none;
+    }
+}
+
+@include breakpoints.down(large) {
+    .bc-display-none-below-lg {
+        display: none;
+    }
+}

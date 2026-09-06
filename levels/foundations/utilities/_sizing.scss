@@ -1,0 +1,264 @@
+//
+// Utilities: Sizing
+//
+// Helper classes for direct sizing application.
+//
+
+//
+// Semantic UI Size
+//
+
+$bc-ui-sizes: (
+    2, 4, 6, 8, 12, 16, 20, 24, 32, 40, 48, 56, 64, 72, 80,
+    96, 112, 128, 160, 192, 224, 256, 320
+);
+
+@each $size in $bc-ui-sizes {
+    .bc-w-ui-#{$size} { width: var(--bc-size-ui-#{$size}); }
+    .bc-min-w-ui-#{$size} { min-width: var(--bc-size-ui-#{$size}); }
+    .bc-max-w-ui-#{$size} { max-width: var(--bc-size-ui-#{$size}); }
+    .bc-h-ui-#{$size} { height: var(--bc-size-ui-#{$size}); }
+    .bc-min-h-ui-#{$size} { min-height: var(--bc-size-ui-#{$size}); }
+    .bc-max-h-ui-#{$size} { max-height: var(--bc-size-ui-#{$size}); }
+}
+
+//
+// Shared Percentage Scale
+//
+
+$bc-percentage-sizes: (
+    20,
+    25,
+    33,
+    40,
+    50,
+    60,
+    66,
+    75,
+    80,
+    100
+);
+
+
+//
+// Shared Viewport Scale
+//
+
+$bc-viewport-sizes: (
+    50,
+    100
+);
+
+
+//
+// Width: Intrinsic / Global
+//
+
+.bc-w-unset {
+    width: unset;
+}
+
+.bc-w-auto {
+    width: auto;
+}
+
+.bc-w-fit {
+    width: fit-content;
+}
+
+.bc-w-max {
+    width: max-content;
+}
+
+.bc-w-min {
+    width: min-content;
+}
+
+// Min
+.bc-min-w-unset {
+    min-width: unset;
+}
+
+.bc-min-w-auto {
+    min-width: auto;
+}
+
+.bc-min-w-fit {
+    min-width: fit-content;
+}
+
+.bc-min-w-max {
+    min-width: max-content;
+}
+
+.bc-min-w-min {
+    min-width: min-content;
+}
+
+// Max
+.bc-max-w-unset {
+    max-width: unset;
+}
+
+.bc-max-w-none {
+    max-width: none;
+}
+
+.bc-max-w-fit {
+    max-width: fit-content;
+}
+
+.bc-max-w-max {
+    max-width: max-content;
+}
+
+.bc-max-w-min {
+    max-width: min-content;
+}
+
+
+//
+// Width: Percentage
+//
+
+@each $size in $bc-percentage-sizes {
+
+    .bc-w-#{$size} {
+        width: #{$size}#{"%"};
+    }
+
+    .bc-min-w-#{$size} {
+        min-width: #{$size}#{"%"};
+    }
+
+    .bc-max-w-#{$size} {
+        max-width: #{$size}#{"%"};
+    }
+}
+
+
+//
+// Width: Viewport
+//
+
+@each $size in $bc-viewport-sizes {
+
+    .bc-w-#{$size}vw {
+        width: #{$size}vw;
+    }
+
+    .bc-min-w-#{$size}vw {
+        min-width: #{$size}vw;
+    }
+
+    .bc-max-w-#{$size}vw {
+        max-width: #{$size}vw;
+    }
+}
+
+
+//
+// Height: Intrinsic / Global
+//
+
+.bc-h-unset {
+    height: unset;
+}
+
+.bc-h-auto {
+    height: auto;
+}
+
+.bc-h-fit {
+    height: fit-content;
+}
+
+.bc-h-max {
+    height: max-content;
+}
+
+.bc-h-min {
+    height: min-content;
+}
+
+// Min
+.bc-min-h-unset {
+    min-height: unset;
+}
+
+.bc-min-h-auto {
+    min-height: auto;
+}
+
+.bc-min-h-fit {
+    min-height: fit-content;
+}
+
+.bc-min-h-max {
+    min-height: max-content;
+}
+
+.bc-min-h-min {
+    min-height: min-content;
+}
+
+// Max
+.bc-max-h-unset {
+    max-height: unset;
+}
+
+.bc-max-h-none {
+    max-height: none;
+}
+
+.bc-max-h-fit {
+    max-height: fit-content;
+}
+
+.bc-max-h-max {
+    max-height: max-content;
+}
+
+.bc-max-h-min {
+    max-height: min-content;
+}
+
+
+//
+// Height: Percentage
+//
+
+@each $size in $bc-percentage-sizes {
+
+    .bc-h-#{$size} {
+        height: #{$size}#{"%"};
+    }
+
+    .bc-min-h-#{$size} {
+        min-height: #{$size}#{"%"};
+    }
+
+    .bc-max-h-#{$size} {
+        max-height: #{$size}#{"%"};
+    }
+}
+
+
+//
+// Height: Viewport
+//
+
+@each $size in $bc-viewport-sizes {
+
+    .bc-h-#{$size}vh {
+        height: #{$size}vh;
+    }
+
+    .bc-min-h-#{$size}vh {
+        min-height: #{$size}vh;
+    }
+
+    .bc-max-h-#{$size}vh {
+        max-height: #{$size}vh;
+    }
+}

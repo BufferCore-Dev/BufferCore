@@ -1,0 +1,101 @@
+//
+// Semantics: Breakpoints
+//
+// Shared viewport/layout bands plus reference viewport values.
+//
+// Small is the default band below Medium, so it does not need a min-width
+// threshold. The current factory values place Medium at 800px and Large at
+// 1260px. Reference values describe the supported/design viewport context and
+// do not cap the Small or Large bands. The raw tiers may be flavoured without
+// changing these semantic role names.
+//
+
+@use "../abstracts/breakpoints" as breakpoint-data;
+
+:root {
+
+    //
+    // Shared band thresholds
+    //
+    --bc-breakpoint-medium: var(--bc-breakpoint-md);
+    --bc-breakpoint-large: var(--bc-breakpoint-lg);
+
+    //
+    // Viewport references
+    //
+    --bc-breakpoint-reference-min: var(--bc-breakpoint-sm);
+    --bc-breakpoint-reference-wide: var(--bc-breakpoint-xl);
+
+}
+
+//
+// Authoring API
+//
+// Consumers can:
+// Import this partial as `breakpoints` when using the authoring mixins.
+//
+
+@mixin up($band) {
+    $start: breakpoint-data.band-start($band);
+
+    @if $band == small {
+        @content;
+    } @else {
+        @media (min-width: $start) {
+            @content;
+        }
+    }
+}
+
+@mixin down($band) {
+    @if $band == small {
+        @error "`breakpoints.down(small)` has no lower shared band. Use `breakpoints.only(small)`.";
+    }
+
+    $start: breakpoint-data.band-start($band);
+    $end: $start - breakpoint-data.$boundary-epsilon;
+
+    @media (max-width: $end) {
+        @content;
+    }
+}
+
+@mixin only($band) {
+    $start: breakpoint-data.band-start($band);
+    $end: breakpoint-data.band-end($band);
+
+    @if $band == small {
+        @media (max-width: $end) {
+            @content;
+        }
+    } @else if $end == null {
+        @media (min-width: $start) {
+            @content;
+        }
+    } @else {
+        @media (min-width: $start) and (max-width: $end) {
+            @content;
+        }
+    }
+}
+
+@mixin between($from, $to) {
+    $start: breakpoint-data.band-start($from);
+    $end: breakpoint-data.band-end($to);
+
+    @if $from == small and $end == null {
+        @content;
+    } @else if $from == small {
+        @media (max-width: $end) {
+            @content;
+        }
+    } @else if $end == null {
+        @media (min-width: $start) {
+            @content;
+        }
+    } @else {
+        @media (min-width: $start) and (max-width: $end) {
+            @content;
+        }
+    }
+}

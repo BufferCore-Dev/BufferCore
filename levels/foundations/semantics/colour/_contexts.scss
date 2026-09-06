@@ -1,0 +1,34 @@
+//
+// Semantics: Colour / Context
+//
+// Stable consumer-facing Colour targets. Default binding is Neutral/general.
+//
+
+:root,
+[data-bc-mode="light"],
+[data-bc-mode="dark"] {
+
+    // Text
+    --bc-color-text-context: var(--bc-color-text);
+    --bc-color-text-context-strong: var(--bc-color-text);
+    --bc-color-text-context-inverse: var(--bc-color-text-inverse);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-inverse);
+
+    // Fill
+    --bc-color-fill-context-subtle: var(--bc-color-fill-neutral-subtle);
+    --bc-color-fill-context-soft: var(--bc-color-fill-neutral-soft);
+    --bc-color-fill-context: var(--bc-color-fill-neutral);
+    --bc-color-fill-context-strong: var(--bc-color-fill-neutral-strong);
+    --bc-color-fill-context-bold: var(--bc-color-fill-neutral-bold);
+
+    // Border
+    --bc-color-border-context-subtle: var(--bc-color-border-neutral-subtle);
+    --bc-color-border-context: var(--bc-color-border-neutral);
+    --bc-color-border-context-strong: var(--bc-color-border-neutral-strong);
+    --bc-color-border-context-bold: var(--bc-color-border-neutral-bold);
+
+    // Surface
+    --bc-color-surface-context: var(--bc-color-surface-general-primary);
+    --bc-color-surface-context-strong: var(--bc-color-surface-general-primary-strong);
+
+}

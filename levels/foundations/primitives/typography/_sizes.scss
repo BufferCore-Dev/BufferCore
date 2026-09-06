@@ -1,0 +1,25 @@
+//
+// Primitives: Typography / Sizes
+//
+// Raw ordered Core typography sizes.
+// Higher numbers always represent larger type; semantic role meaning begins later.
+//
+
+:root {
+    --bc-type-size-1: clamp(0.75rem, 0.6667rem + 0.2778vw, 0.875rem);
+    --bc-type-size-2: clamp(0.875rem, 0.7917rem + 0.2778vw, 1rem);
+    --bc-type-size-3: clamp(1rem, 0.9167rem + 0.2778vw, 1.125rem);
+    --bc-type-size-4: clamp(1.125rem, 1.0417rem + 0.2778vw, 1.25rem);
+    --bc-type-size-5: clamp(1.25rem, 1.1667rem + 0.2778vw, 1.375rem);
+    --bc-type-size-6: clamp(1.375rem, 1.2917rem + 0.2778vw, 1.5rem);
+    --bc-type-size-7: clamp(1.5rem, 1.3333rem + 0.5556vw, 1.75rem);
+    --bc-type-size-8: clamp(1.5625rem, 1.2708rem + 0.9722vw, 2rem);
+    --bc-type-size-9: clamp(1.6875rem, 1.3125rem + 1.25vw, 2.25rem);
+    --bc-type-size-10: clamp(1.75rem, 1.25rem + 1.6667vw, 2.5rem);
+    --bc-type-size-11: clamp(1.875rem, 1.2917rem + 1.9444vw, 2.75rem);
+    --bc-type-size-12: clamp(2.0625rem, 0.4375rem + 5.4167vw, 4.5rem);
+    --bc-type-size-13: clamp(2.25rem, 0.4167rem + 6.1111vw, 5rem);
+    --bc-type-size-14: clamp(2.4375rem, 0.0625rem + 7.9167vw, 6rem);
+    --bc-type-size-15: clamp(2.625rem, -0.625rem + 10.8333vw, 7.5rem);
+    --bc-type-size-16: clamp(2.75rem, -1.25rem + 13.3333vw, 8.75rem);
+}

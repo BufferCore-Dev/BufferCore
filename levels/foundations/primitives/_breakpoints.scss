@@ -1,0 +1,19 @@
+//
+// Primitives: Breakpoints
+//
+// Raw ordered viewport tiers. Purpose and shared-band meaning begin at Semantics.
+//
+
+@use "../abstracts/breakpoints" as breakpoints;
+
+:root {
+
+    //
+    // Viewport tiers
+    //
+    --bc-breakpoint-sm: #{breakpoints.value(sm)};
+    --bc-breakpoint-md: #{breakpoints.value(md)};
+    --bc-breakpoint-lg: #{breakpoints.value(lg)};
+    --bc-breakpoint-xl: #{breakpoints.value(xl)};
+
+}

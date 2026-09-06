@@ -1,0 +1,71 @@
+//
+// Semantics: Colour / Design Material
+//
+// Mode-independent Identity aliases.
+// Neutral tokens are promoted unchanged and therefore are defined once in Primitive;
+// they are not self-aliased here.
+:root {
+    // Primary
+    --bc-color-primary-tint-90: var(--bc-color-identity-ramp-1-tint-90);
+    --bc-color-primary-tint-80: var(--bc-color-identity-ramp-1-tint-80);
+    --bc-color-primary-tint-70: var(--bc-color-identity-ramp-1-tint-70);
+    --bc-color-primary-tint-60: var(--bc-color-identity-ramp-1-tint-60);
+    --bc-color-primary-tint-50: var(--bc-color-identity-ramp-1-tint-50);
+    --bc-color-primary-tint-40: var(--bc-color-identity-ramp-1-tint-40);
+    --bc-color-primary-tint-30: var(--bc-color-identity-ramp-1-tint-30);
+    --bc-color-primary-tint-20: var(--bc-color-identity-ramp-1-tint-20);
+    --bc-color-primary-tint-10: var(--bc-color-identity-ramp-1-tint-10);
+    --bc-color-primary: var(--bc-color-identity-ramp-1);
+    --bc-color-primary-shade-10: var(--bc-color-identity-ramp-1-shade-10);
+    --bc-color-primary-shade-20: var(--bc-color-identity-ramp-1-shade-20);
+    --bc-color-primary-shade-30: var(--bc-color-identity-ramp-1-shade-30);
+    --bc-color-primary-shade-40: var(--bc-color-identity-ramp-1-shade-40);
+    --bc-color-primary-shade-50: var(--bc-color-identity-ramp-1-shade-50);
+    --bc-color-primary-shade-60: var(--bc-color-identity-ramp-1-shade-60);
+    --bc-color-primary-shade-70: var(--bc-color-identity-ramp-1-shade-70);
+    --bc-color-primary-shade-80: var(--bc-color-identity-ramp-1-shade-80);
+    --bc-color-primary-shade-90: var(--bc-color-identity-ramp-1-shade-90);
+
+    // Secondary
+    --bc-color-secondary-tint-90: var(--bc-color-identity-ramp-2-tint-90);
+    --bc-color-secondary-tint-80: var(--bc-color-identity-ramp-2-tint-80);
+    --bc-color-secondary-tint-70: var(--bc-color-identity-ramp-2-tint-70);
+    --bc-color-secondary-tint-60: var(--bc-color-identity-ramp-2-tint-60);
+    --bc-color-secondary-tint-50: var(--bc-color-identity-ramp-2-tint-50);
+    --bc-color-secondary-tint-40: var(--bc-color-identity-ramp-2-tint-40);
+    --bc-color-secondary-tint-30: var(--bc-color-identity-ramp-2-tint-30);
+    --bc-color-secondary-tint-20: var(--bc-color-identity-ramp-2-tint-20);
+    --bc-color-secondary-tint-10: var(--bc-color-identity-ramp-2-tint-10);
+    --bc-color-secondary: var(--bc-color-identity-ramp-2);
+    --bc-color-secondary-shade-10: var(--bc-color-identity-ramp-2-shade-10);
+    --bc-color-secondary-shade-20: var(--bc-color-identity-ramp-2-shade-20);
+    --bc-color-secondary-shade-30: var(--bc-color-identity-ramp-2-shade-30);
+    --bc-color-secondary-shade-40: var(--bc-color-identity-ramp-2-shade-40);
+    --bc-color-secondary-shade-50: var(--bc-color-identity-ramp-2-shade-50);
+    --bc-color-secondary-shade-60: var(--bc-color-identity-ramp-2-shade-60);
+    --bc-color-secondary-shade-70: var(--bc-color-identity-ramp-2-shade-70);
+    --bc-color-secondary-shade-80: var(--bc-color-identity-ramp-2-shade-80);
+    --bc-color-secondary-shade-90: var(--bc-color-identity-ramp-2-shade-90);
+
+    // Accent
+    --bc-color-accent-tint-90: var(--bc-color-identity-ramp-3-tint-90);
+    --bc-color-accent-tint-80: var(--bc-color-identity-ramp-3-tint-80);
+    --bc-color-accent-tint-70: var(--bc-color-identity-ramp-3-tint-70);
+    --bc-color-accent-tint-60: var(--bc-color-identity-ramp-3-tint-60);
+    --bc-color-accent-tint-50: var(--bc-color-identity-ramp-3-tint-50);
+    --bc-color-accent-tint-40: var(--bc-color-identity-ramp-3-tint-40);
+    --bc-color-accent-tint-30: var(--bc-color-identity-ramp-3-tint-30);
+    --bc-color-accent-tint-20: var(--bc-color-identity-ramp-3-tint-20);
+    --bc-color-accent-tint-10: var(--bc-color-identity-ramp-3-tint-10);
+    --bc-color-accent: var(--bc-color-identity-ramp-3);
+    --bc-color-accent-shade-10: var(--bc-color-identity-ramp-3-shade-10);
+    --bc-color-accent-shade-20: var(--bc-color-identity-ramp-3-shade-20);
+    --bc-color-accent-shade-30: var(--bc-color-identity-ramp-3-shade-30);
+    --bc-color-accent-shade-40: var(--bc-color-identity-ramp-3-shade-40);
+    --bc-color-accent-shade-50: var(--bc-color-identity-ramp-3-shade-50);
+    --bc-color-accent-shade-60: var(--bc-color-identity-ramp-3-shade-60);
+    --bc-color-accent-shade-70: var(--bc-color-identity-ramp-3-shade-70);
+    --bc-color-accent-shade-80: var(--bc-color-identity-ramp-3-shade-80);
+    --bc-color-accent-shade-90: var(--bc-color-identity-ramp-3-shade-90);
+
+}

@@ -1,0 +1,20 @@
+//
+// Primitives: Z-index
+//
+// Raw stacking-order values. Semantic layering purpose begins later.
+//
+
+:root {
+
+    //
+    // Z-index
+    //
+    --bc-z-value-base: 0;
+    --bc-z-value-raised: 10;
+    --bc-z-value-sticky: 100;
+    --bc-z-value-floating: 300;
+    --bc-z-value-overlay: 600;
+    --bc-z-value-modal: 800;
+    --bc-z-value-toast: 1000;
+
+}
