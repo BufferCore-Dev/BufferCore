@@ -83,8 +83,8 @@
 .bc-is-primary {
     --bc-color-text-context: var(--bc-color-text-primary);
     --bc-color-text-context-strong: var(--bc-color-text-primary-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-primary-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-primary-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-primary);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-primary-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-primary-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-primary-soft);
     --bc-color-fill-context: var(--bc-color-fill-primary);
@@ -101,8 +101,8 @@
 .bc-is-secondary {
     --bc-color-text-context: var(--bc-color-text-secondary);
     --bc-color-text-context-strong: var(--bc-color-text-secondary-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-secondary-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-secondary-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-secondary);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-secondary-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-secondary-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-secondary-soft);
     --bc-color-fill-context: var(--bc-color-fill-secondary);
@@ -119,8 +119,8 @@
 .bc-is-accent {
     --bc-color-text-context: var(--bc-color-text-accent);
     --bc-color-text-context-strong: var(--bc-color-text-accent-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-accent-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-accent-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-accent);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-accent-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-accent-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-accent-soft);
     --bc-color-fill-context: var(--bc-color-fill-accent);
@@ -137,8 +137,8 @@
 .bc-is-success {
     --bc-color-text-context: var(--bc-color-text-success);
     --bc-color-text-context-strong: var(--bc-color-text-success-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-success-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-success-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-success);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-success-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-success-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-success-soft);
     --bc-color-fill-context: var(--bc-color-fill-success);
@@ -155,8 +155,8 @@
 .bc-is-warning {
     --bc-color-text-context: var(--bc-color-text-warning);
     --bc-color-text-context-strong: var(--bc-color-text-warning-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-warning-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-warning-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-warning);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-warning-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-warning-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-warning-soft);
     --bc-color-fill-context: var(--bc-color-fill-warning);
@@ -173,8 +173,8 @@
 .bc-is-error {
     --bc-color-text-context: var(--bc-color-text-error);
     --bc-color-text-context-strong: var(--bc-color-text-error-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-error-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-error-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-error);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-error-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-error-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-error-soft);
     --bc-color-fill-context: var(--bc-color-fill-error);
@@ -191,8 +191,8 @@
 .bc-is-info {
     --bc-color-text-context: var(--bc-color-text-info);
     --bc-color-text-context-strong: var(--bc-color-text-info-strong);
-    --bc-color-text-context-inverse: var(--bc-color-text-info-inverse);
-    --bc-color-text-context-inverse-strong: var(--bc-color-text-info-inverse-strong);
+    --bc-color-text-context-inverse: var(--bc-color-text-info);
+    --bc-color-text-context-inverse-strong: var(--bc-color-text-info-strong-inverse);
     --bc-color-fill-context-subtle: var(--bc-color-fill-info-subtle);
     --bc-color-fill-context-soft: var(--bc-color-fill-info-soft);
     --bc-color-fill-context: var(--bc-color-fill-info);

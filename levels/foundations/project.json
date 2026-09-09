@@ -453,17 +453,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Primary Inverse",
-        "token": "--bc-color-text-primary-inverse",
-        "purpose": "Base Primary-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Primary semantic base colour on an opposing context. Accessibility is context-dependent; use Text Primary Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Primary Inverse Strong",
-        "token": "--bc-color-text-primary-inverse-strong",
+        "name": "Text Primary Strong Inverse",
+        "token": "--bc-color-text-primary-strong-inverse",
         "purpose": "Stronger Primary-family text for inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -489,17 +480,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Secondary Inverse",
-        "token": "--bc-color-text-secondary-inverse",
-        "purpose": "Base Secondary-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Secondary semantic base colour on an opposing context. Accessibility is context-dependent; use Text Secondary Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Secondary Inverse Strong",
-        "token": "--bc-color-text-secondary-inverse-strong",
+        "name": "Text Secondary Strong Inverse",
+        "token": "--bc-color-text-secondary-strong-inverse",
         "purpose": "Stronger Secondary-family text for inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -525,17 +507,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Accent Inverse",
-        "token": "--bc-color-text-accent-inverse",
-        "purpose": "Base Accent-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Accent semantic base colour on an opposing context. Accessibility is context-dependent; use Text Accent Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Accent Inverse Strong",
-        "token": "--bc-color-text-accent-inverse-strong",
+        "name": "Text Accent Strong Inverse",
+        "token": "--bc-color-text-accent-strong-inverse",
         "purpose": "Stronger Accent-family text for inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -561,17 +534,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Success Inverse",
-        "token": "--bc-color-text-success-inverse",
-        "purpose": "Base Success-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Success semantic base colour on an opposing context. Accessibility is context-dependent; use Text Success Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Success Inverse Strong",
-        "token": "--bc-color-text-success-inverse-strong",
+        "name": "Text Success Strong Inverse",
+        "token": "--bc-color-text-success-strong-inverse",
         "purpose": "Higher-emphasis Success text in inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -597,17 +561,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Warning Inverse",
-        "token": "--bc-color-text-warning-inverse",
-        "purpose": "Base Warning-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Warning semantic base colour on an opposing context. Accessibility is context-dependent; use Text Warning Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Warning Inverse Strong",
-        "token": "--bc-color-text-warning-inverse-strong",
+        "name": "Text Warning Strong Inverse",
+        "token": "--bc-color-text-warning-strong-inverse",
         "purpose": "Higher-emphasis Warning text in inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -633,17 +588,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Error Inverse",
-        "token": "--bc-color-text-error-inverse",
-        "purpose": "Base Error-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Error semantic base colour on an opposing context. Accessibility is context-dependent; use Text Error Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Error Inverse Strong",
-        "token": "--bc-color-text-error-inverse-strong",
+        "name": "Text Error Strong Inverse",
+        "token": "--bc-color-text-error-strong-inverse",
         "purpose": "Higher-emphasis Error text in inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -669,17 +615,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Info Inverse",
-        "token": "--bc-color-text-info-inverse",
-        "purpose": "Base Info-family text colour for inverse contexts.",
-        "notes": "Uses the exact approved Info semantic base colour on an opposing context. Accessibility is context-dependent; use Text Info Inverse Strong when a guaranteed readable variant is required.",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Info Inverse Strong",
-        "token": "--bc-color-text-info-inverse-strong",
+        "name": "Text Info Strong Inverse",
+        "token": "--bc-color-text-info-strong-inverse",
         "purpose": "Higher-emphasis Info text in inverse contexts.",
         "notes": "Minimum contrast 4.5:1. Readable variant: minimum contrast 4.5:1; BufferCore recommended target 7:1 while preserving family character.",
         "accessibilityMinimum": "4.5:1",
@@ -1805,17 +1742,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Primary Inverse",
-        "token": ".bc-color-text-primary-inverse",
-        "purpose": "Apply Primary text for inverse contexts.",
-        "notes": "",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Primary Inverse Strong",
-        "token": ".bc-color-text-primary-inverse-strong",
+        "name": "Text Primary Strong Inverse",
+        "token": ".bc-color-text-primary-strong-inverse",
         "purpose": "Apply Primary Strong text for inverse contexts.",
         "notes": "",
         "accessibilityMinimum": "",
@@ -1841,17 +1769,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Secondary Inverse",
-        "token": ".bc-color-text-secondary-inverse",
-        "purpose": "Apply Secondary text for inverse contexts.",
-        "notes": "",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Secondary Inverse Strong",
-        "token": ".bc-color-text-secondary-inverse-strong",
+        "name": "Text Secondary Strong Inverse",
+        "token": ".bc-color-text-secondary-strong-inverse",
         "purpose": "Apply Secondary Strong text for inverse contexts.",
         "notes": "",
         "accessibilityMinimum": "",
@@ -1877,17 +1796,8 @@
       },
       {
         "group": "Text",
-        "name": "Text Accent Inverse",
-        "token": ".bc-color-text-accent-inverse",
-        "purpose": "Apply Accent text for inverse contexts.",
-        "notes": "",
-        "accessibilityMinimum": "",
-        "accessibilityRecommended": ""
-      },
-      {
-        "group": "Text",
-        "name": "Text Accent Inverse Strong",
-        "token": ".bc-color-text-accent-inverse-strong",
+        "name": "Text Accent Strong Inverse",
+        "token": ".bc-color-text-accent-strong-inverse",
         "purpose": "Apply Accent Strong text for inverse contexts.",
         "notes": "",
         "accessibilityMinimum": "",
@@ -3212,22 +3122,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-primary-inverse": {
-        "token": "--bc-color-text-primary-inverse",
-        "source": "--bc-color-identity-ramp-1",
-        "value": "#5b1ce6",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-secondary": {
         "token": "--bc-color-text-secondary",
-        "source": "--bc-color-identity-ramp-2",
-        "value": "#000035",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-secondary-inverse": {
-        "token": "--bc-color-text-secondary-inverse",
         "source": "--bc-color-identity-ramp-2",
         "value": "#000035",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -3240,22 +3136,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-accent-inverse": {
-        "token": "--bc-color-text-accent-inverse",
-        "source": "--bc-color-identity-ramp-3",
-        "value": "#ff401a",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-success": {
         "token": "--bc-color-text-success",
-        "source": "--bc-color-status-success",
-        "value": "#28a745",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-success-inverse": {
-        "token": "--bc-color-text-success-inverse",
         "source": "--bc-color-status-success",
         "value": "#28a745",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -3268,13 +3150,6 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-warning-inverse": {
-        "token": "--bc-color-text-warning-inverse",
-        "source": "--bc-color-status-warning",
-        "value": "#ffc107",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-error": {
         "token": "--bc-color-text-error",
         "source": "--bc-color-status-error",
@@ -3282,22 +3157,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-error-inverse": {
-        "token": "--bc-color-text-error-inverse",
-        "source": "--bc-color-status-error",
-        "value": "#dc3545",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-info": {
         "token": "--bc-color-text-info",
-        "source": "--bc-color-status-info",
-        "value": "#6b0bbf",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-info-inverse": {
-        "token": "--bc-color-text-info-inverse",
         "source": "--bc-color-status-info",
         "value": "#6b0bbf",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -3352,8 +3213,8 @@
         "reason": "C12 (#1b0845) meets the 4.5:1 minimum contrast against #faf7f2 and preserves the Primary family's chromatic identity. It provides a strong, legible variant while maintaining perceptual separation from Muted and Default siblings. The 16.84:1 contrast ratio exceeds the minimum, balancing readability with family chroma retention.",
         "status": "ai-selected"
       },
-      "--bc-color-text-primary-inverse-strong": {
-        "token": "--bc-color-text-primary-inverse-strong",
+      "--bc-color-text-primary-strong-inverse": {
+        "token": "--bc-color-text-primary-strong-inverse",
         "source": "--bc-color-identity-ramp-1-tint-50",
         "value": "#ad8ef3",
         "reason": "C5 (#ad8ef3) meets the 4.5:1 minimum contrast requirement and aligns with the BufferCore recommended 7:1 target. It preserves the primary family's chromatic identity (purple) with sufficient luminance contrast against the dark background (#0d0d0e) while avoiding unnecessary black/white collapse. Its OKLCH values (lightness 71.6%, chroma 14.6%) maintain perceptual separation from adjacent siblings and the background.",
@@ -3366,8 +3227,8 @@
         "reason": "C7 meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) against light canvas-primary. It preserves the Secondary family's chroma (6.1% retention) and avoids black/white collapse, maintaining perceptual separation from Muted and Default while strengthening the hierarchy.",
         "status": "ai-selected"
       },
-      "--bc-color-text-secondary-inverse-strong": {
-        "token": "--bc-color-text-secondary-inverse-strong",
+      "--bc-color-text-secondary-strong-inverse": {
+        "token": "--bc-color-text-secondary-strong-inverse",
         "source": "--bc-color-identity-ramp-2-tint-50",
         "value": "#80809a",
         "reason": "Meets the 4.5:1 minimum contrast against #0d0d0e while preserving the secondary family's chromatic character. C5 (#80809a) offers the highest chroma retention (0.38) among candidates meeting the minimum, avoiding unnecessary collapse toward black/white while maintaining meaningful perceptual separation from adjacent siblings.",
@@ -3385,8 +3246,8 @@
           "recommendation": "The fallback respects the allowed family and hierarchy. Review it visually or regenerate this design set if you want an AI-selected alternative."
         }
       },
-      "--bc-color-text-accent-inverse-strong": {
-        "token": "--bc-color-text-accent-inverse-strong",
+      "--bc-color-text-accent-strong-inverse": {
+        "token": "--bc-color-text-accent-strong-inverse",
         "source": "--bc-color-identity-ramp-3-tint-30",
         "value": "#ff795f",
         "reason": "Meets recommended 7:1 contrast against dark background while preserving high chroma retention (0.73) and family color character. Lightness (0.728) ensures readability without collapsing into white, maintaining perceptual separation from adjacent siblings.",
@@ -3399,8 +3260,8 @@
         "reason": "C14 (#145423) meets the 4.5:1 minimum contrast against light background and achieves 8.46:1 (exceeding 7:1 recommended). It preserves the family green hue with sufficient chroma (0.102) and avoids black/white collapse (distanceBlack: 40.7). This maintains perceptual separation from adjacent roles while respecting the chromatic identity of the status success family.",
         "status": "ai-selected"
       },
-      "--bc-color-text-success-inverse-strong": {
-        "token": "--bc-color-text-success-inverse-strong",
+      "--bc-color-text-success-strong-inverse": {
+        "token": "--bc-color-text-success-strong-inverse",
         "source": "--bc-color-status-success-tint-20",
         "value": "#53b96a",
         "reason": "Meets accessibility minimum (4.5:1) and recommended target (7:1) against dark inverse background. Preserves recognisable Success family chroma (148.7° hue) while avoiding black/white collapse. Provides meaningful perceptual separation from adjacent roles while maintaining readability.",
@@ -3413,8 +3274,8 @@
         "reason": "Meets 4.5:1 minimum contrast against light canvas-primary background (#faf7f2) with 7.48:1 ratio. Preserves recognisable warning family chroma (hue 86.6, chroma 0.088) without collapsing to black/white. Sits between neutral 40/60 and 50/70 bands, maintaining perceptual separation from adjacent text roles.",
         "status": "ai-selected"
       },
-      "--bc-color-text-warning-inverse-strong": {
-        "token": "--bc-color-text-warning-inverse-strong",
+      "--bc-color-text-warning-strong-inverse": {
+        "token": "--bc-color-text-warning-strong-inverse",
         "source": "--bc-color-status-warning-tint-10",
         "value": "#ffc720",
         "reason": "C9 (#ffc720) meets 4.5:1 minimum contrast against #0d0d0e and achieves 7:1 recommended target. It preserves the status warning family's yellow/orange chroma (chroma retention 0.98) while maintaining sufficient distance from white (distanceWhite 22.2) to avoid collapse. This balances readability, family character, and perceptual separation from adjacent roles.",
@@ -3427,8 +3288,8 @@
         "reason": "Meets accessibility minimum (4.5:1) with contrast 8.85 against light background. Preserves chromatic family character as a darker shade of error, avoiding black/white collapse while maintaining meaningful perceptual separation from adjacent roles.",
         "status": "ai-selected"
       },
-      "--bc-color-text-error-inverse-strong": {
-        "token": "--bc-color-text-error-inverse-strong",
+      "--bc-color-text-error-strong-inverse": {
+        "token": "--bc-color-text-error-strong-inverse",
         "source": "--bc-color-status-error-tint-40",
         "value": "#ea868f",
         "reason": "Meets the 4.5:1 minimum contrast requirement and exceeds the recommended 7:1 target. Preserves the family's recognisable red chroma (chroma 0.123) while avoiding near-white collapse. The lightness (0.73) and chroma retention (0.67) provide sufficient perceptual separation from the dark background (#0d0d0e) without sacrificing family character.",
@@ -3441,8 +3302,8 @@
         "reason": "C13 (#2b044c) meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) contrast targets against light canvas-primary. It preserves the chromatic family's recognisable purple hue with sufficient chroma retention (0.51) and avoids black/white collapse. The perceptual distance from white (77) and black (26.7) ensures readability without sacrificing the family's character, aligning with BufferCore's preference for meaningful chroma retention and hierarchical separation.",
         "status": "ai-selected"
       },
-      "--bc-color-text-info-inverse-strong": {
-        "token": "--bc-color-text-info-inverse-strong",
+      "--bc-color-text-info-strong-inverse": {
+        "token": "--bc-color-text-info-strong-inverse",
         "source": "--bc-color-status-info-tint-60",
         "value": "#c49de5",
         "reason": "C4 (#c49de5) meets the 7:1 recommended contrast target while preserving the family's recognisable purple chroma. It maintains meaningful perceptual separation from the dark #0d0d0e background, avoids near-white collapse, and retains sufficient chroma for hierarchy without over-saturating the light context.",
@@ -4294,22 +4155,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-primary-inverse": {
-        "token": "--bc-color-text-primary-inverse",
-        "source": "--bc-color-identity-ramp-1",
-        "value": "#5b1ce6",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-secondary": {
         "token": "--bc-color-text-secondary",
-        "source": "--bc-color-identity-ramp-2",
-        "value": "#000035",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-secondary-inverse": {
-        "token": "--bc-color-text-secondary-inverse",
         "source": "--bc-color-identity-ramp-2",
         "value": "#000035",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -4322,22 +4169,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-accent-inverse": {
-        "token": "--bc-color-text-accent-inverse",
-        "source": "--bc-color-identity-ramp-3",
-        "value": "#ff401a",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-success": {
         "token": "--bc-color-text-success",
-        "source": "--bc-color-status-success",
-        "value": "#28a745",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-success-inverse": {
-        "token": "--bc-color-text-success-inverse",
         "source": "--bc-color-status-success",
         "value": "#28a745",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -4350,13 +4183,6 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-warning-inverse": {
-        "token": "--bc-color-text-warning-inverse",
-        "source": "--bc-color-status-warning",
-        "value": "#ffc107",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-error": {
         "token": "--bc-color-text-error",
         "source": "--bc-color-status-error",
@@ -4364,22 +4190,8 @@
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
         "status": "fixed"
       },
-      "--bc-color-text-error-inverse": {
-        "token": "--bc-color-text-error-inverse",
-        "source": "--bc-color-status-error",
-        "value": "#dc3545",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
       "--bc-color-text-info": {
         "token": "--bc-color-text-info",
-        "source": "--bc-color-status-info",
-        "value": "#6b0bbf",
-        "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
-        "status": "fixed"
-      },
-      "--bc-color-text-info-inverse": {
-        "token": "--bc-color-text-info-inverse",
         "source": "--bc-color-status-info",
         "value": "#6b0bbf",
         "reason": "Exact family Base colour. Contrast is usage evidence; use the corresponding Strong role when guaranteed readable chromatic text is required.",
@@ -4455,8 +4267,8 @@
         "reason": "C11 (#12062e) meets the 4.5:1 minimum contrast against #faf7f2 and provides a perceptually distinct darker variant of the Primary family while preserving chroma. It avoids black/white collapse and maintains meaningful separation from adjacent text roles.",
         "status": "ai-selected"
       },
-      "--bc-color-text-primary-inverse-strong": {
-        "token": "--bc-color-text-primary-inverse-strong",
+      "--bc-color-text-primary-strong-inverse": {
+        "token": "--bc-color-text-primary-strong-inverse",
         "source": "--bc-color-identity-ramp-1-shade-10",
         "value": "#5219cf",
         "reason": "C18 (#5219cf) meets the 4.5:1 minimum contrast against #f2f2f3 and is the darkest valid variant preserving the chromatic family character. It maintains perceptual separation from adjacent siblings while avoiding black/white collapse, aligning with the recommended 7:1 target proximity.",
@@ -4469,8 +4281,8 @@
         "reason": "C7 (#4d4d72) meets both 4.5:1 minimum and 7:1 recommended contrast against light canvas. It preserves the Secondary family's recognisable dark purple chroma while providing sufficient readability. As the darkest valid candidate in the Secondary ramp, it maintains hierarchy without collapsing into black/white.",
         "status": "ai-selected"
       },
-      "--bc-color-text-secondary-inverse-strong": {
-        "token": "--bc-color-text-secondary-inverse-strong",
+      "--bc-color-text-secondary-strong-inverse": {
+        "token": "--bc-color-text-secondary-strong-inverse",
         "source": "--bc-color-identity-ramp-2-tint-30",
         "value": "#4d4d72",
         "reason": "C7 meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) contrast targets against the light inverse background (#f2f2f3). It preserves the secondary family's chromatic identity (blue-violet hue) with sufficient chroma retention (0.59) while avoiding black/white collapse. This maintains perceptual separation from adjacent siblings and aligns with the chromatic Strong variant requirement for readable family text.",
@@ -4483,8 +4295,8 @@
         "reason": "Meets accessibility minimum (4.5:1) and aligns with the Accent family's chromatic character. Provides a perceptually distinct, darker variant of the base Accent while maintaining sufficient contrast against the light canvas. The 7.45:1 ratio exceeds the recommended target without collapsing into black/white, preserving the family's recognisable red-orange hue.",
         "status": "ai-selected"
       },
-      "--bc-color-text-accent-inverse-strong": {
-        "token": "--bc-color-text-accent-inverse-strong",
+      "--bc-color-text-accent-strong-inverse": {
+        "token": "--bc-color-text-accent-strong-inverse",
         "source": "--bc-color-identity-ramp-3-shade-40",
         "value": "#992610",
         "reason": "Meets accessibility minimum (4.5:1) and recommended (7:1) contrast against light background. Preserves chromatic family character with sufficient chroma retention (0.67) while avoiding black/white collapse. Maintains meaningful perceptual separation from adjacent roles.",
@@ -4497,8 +4309,8 @@
         "reason": "C14 (#145423) meets the 7:1 recommended contrast against light canvas-primary (#faf7f2) while preserving the success family's recognisable dark green chroma. Its lightness (39.4%) and chroma (10.2%) balance perceptual distinctiveness without collapsing into black, maintaining meaningful separation from adjacent neutral tones.",
         "status": "ai-selected"
       },
-      "--bc-color-text-success-inverse-strong": {
-        "token": "--bc-color-text-success-inverse-strong",
+      "--bc-color-text-success-strong-inverse": {
+        "token": "--bc-color-text-success-strong-inverse",
         "source": "--bc-color-status-success-shade-50",
         "value": "#145423",
         "reason": "C13 (#10431c) meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) against the light inverse background (#f2f2f3). It preserves the family's green chroma while maintaining sufficient contrast without collapsing into black/white. The perceptual distance to white (66.7) and background distance (62.8) ensure visibility without sacrificing family identity.",
@@ -4511,8 +4323,8 @@
         "reason": "Meets accessibilityMinimum (4.5:1) and exceeds accessibilityRecommended (7:1) while preserving the chromatic family character of status-warning. The darker shade-60 (#664d03) maintains perceptual separation from the light canvas-primary background and avoids black/white collapse, retaining meaningful chroma for hierarchy.",
         "status": "ai-selected"
       },
-      "--bc-color-text-warning-inverse-strong": {
-        "token": "--bc-color-text-warning-inverse-strong",
+      "--bc-color-text-warning-strong-inverse": {
+        "token": "--bc-color-text-warning-strong-inverse",
         "source": "--bc-color-status-warning-shade-60",
         "value": "#664d03",
         "reason": "Meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) contrast targets against light background. Preserves recognisable warning family chroma (hue 86.6, chroma 0.088) without collapsing to black/white. Maintains meaningful perceptual separation from adjacent siblings while aligning with BufferCore's chromatic family rules.",
@@ -4525,8 +4337,8 @@
         "reason": "C16 (#9a2530) meets the 7:1 recommended contrast threshold against light canvas-primary background while preserving the error family's recognisable red chroma. It maintains meaningful perceptual separation from adjacent roles and avoids near-black collapse, aligning with BufferCore's chroma retention principles.",
         "status": "ai-selected"
       },
-      "--bc-color-text-error-inverse-strong": {
-        "token": "--bc-color-text-error-inverse-strong",
+      "--bc-color-text-error-strong-inverse": {
+        "token": "--bc-color-text-error-strong-inverse",
         "source": "--bc-color-status-error-shade-30",
         "value": "#9a2530",
         "reason": "Meets Recommended 7:1 contrast against light background while preserving the family's dark red chroma. Maintains perceptual separation from adjacent tones without collapsing into black/white.",
@@ -4539,8 +4351,8 @@
         "reason": "Meets accessibilityMinimum 4.5:1 contrast against light canvas-primary background. Preserves family chroma (0.139) and avoids near-black collapse. Provides meaningful perceptual separation from default while maintaining Info family character.",
         "status": "ai-selected"
       },
-      "--bc-color-text-info-inverse-strong": {
-        "token": "--bc-color-text-info-inverse-strong",
+      "--bc-color-text-info-strong-inverse": {
+        "token": "--bc-color-text-info-strong-inverse",
         "source": "--bc-color-status-info-shade-90",
         "value": "#0b0113",
         "reason": "Meets accessibility minimum (4.5:1) with contrast 6.53:1 against light background. Preserves family chroma as the darkest allowable shade while maintaining perceptual separation from adjacent tones. Avoids unnecessary black/white collapse by retaining meaningful chroma retention (0.97) and distance from white (56.4).",
@@ -4701,16 +4513,13 @@
     ".bc-color-text-inverse": "--bc-color-text-inverse",
     ".bc-color-text-primary": "--bc-color-text-primary",
     ".bc-color-text-primary-strong": "--bc-color-text-primary-strong",
-    ".bc-color-text-primary-inverse": "--bc-color-text-primary-inverse",
-    ".bc-color-text-primary-inverse-strong": "--bc-color-text-primary-inverse-strong",
+    ".bc-color-text-primary-strong-inverse": "--bc-color-text-primary-strong-inverse",
     ".bc-color-text-secondary": "--bc-color-text-secondary",
     ".bc-color-text-secondary-strong": "--bc-color-text-secondary-strong",
-    ".bc-color-text-secondary-inverse": "--bc-color-text-secondary-inverse",
-    ".bc-color-text-secondary-inverse-strong": "--bc-color-text-secondary-inverse-strong",
+    ".bc-color-text-secondary-strong-inverse": "--bc-color-text-secondary-strong-inverse",
     ".bc-color-text-accent": "--bc-color-text-accent",
     ".bc-color-text-accent-strong": "--bc-color-text-accent-strong",
-    ".bc-color-text-accent-inverse": "--bc-color-text-accent-inverse",
-    ".bc-color-text-accent-inverse-strong": "--bc-color-text-accent-inverse-strong",
+    ".bc-color-text-accent-strong-inverse": "--bc-color-text-accent-strong-inverse",
     ".bc-color-canvas-primary": "--bc-color-canvas-primary",
     ".bc-color-canvas-secondary": "--bc-color-canvas-secondary",
     ".bc-color-canvas-tertiary": "--bc-color-canvas-tertiary",
@@ -5384,7 +5193,7 @@
       "at": "2026-08-23T20:14:00.719Z"
     },
     {
-      "target": "light.--bc-color-text-primary-inverse-strong",
+      "target": "light.--bc-color-text-primary-strong-inverse",
       "selected": "--bc-color-identity-ramp-1-tint-50",
       "source": "ai",
       "reason": "C5 (#ad8ef3) meets the 4.5:1 minimum contrast requirement and aligns with the BufferCore recommended 7:1 target. It preserves the primary family's chromatic identity (purple) with sufficient luminance contrast against the dark background (#0d0d0e) while avoiding unnecessary black/white collapse. Its OKLCH values (lightness 71.6%, chroma 14.6%) maintain perceptual separation from adjacent siblings and the background.",
@@ -5398,7 +5207,7 @@
       "at": "2026-08-23T20:14:22.331Z"
     },
     {
-      "target": "light.--bc-color-text-secondary-inverse-strong",
+      "target": "light.--bc-color-text-secondary-strong-inverse",
       "selected": "--bc-color-identity-ramp-2-tint-50",
       "source": "ai",
       "reason": "Meets the 4.5:1 minimum contrast against #0d0d0e while preserving the secondary family's chromatic character. C5 (#80809a) offers the highest chroma retention (0.38) among candidates meeting the minimum, avoiding unnecessary collapse toward black/white while maintaining meaningful perceptual separation from adjacent siblings.",
@@ -5412,7 +5221,7 @@
       "at": "2026-08-23T20:19:54.481Z"
     },
     {
-      "target": "light.--bc-color-text-accent-inverse-strong",
+      "target": "light.--bc-color-text-accent-strong-inverse",
       "selected": "--bc-color-identity-ramp-3-tint-30",
       "source": "ai",
       "reason": "Meets recommended 7:1 contrast against dark background while preserving high chroma retention (0.73) and family color character. Lightness (0.728) ensures readability without collapsing into white, maintaining perceptual separation from adjacent siblings.",
@@ -5426,7 +5235,7 @@
       "at": "2026-08-23T20:20:32.963Z"
     },
     {
-      "target": "light.--bc-color-text-success-inverse-strong",
+      "target": "light.--bc-color-text-success-strong-inverse",
       "selected": "--bc-color-status-success-tint-20",
       "source": "ai",
       "reason": "Meets accessibility minimum (4.5:1) and recommended target (7:1) against dark inverse background. Preserves recognisable Success family chroma (148.7° hue) while avoiding black/white collapse. Provides meaningful perceptual separation from adjacent roles while maintaining readability.",
@@ -5440,7 +5249,7 @@
       "at": "2026-08-23T20:21:10.034Z"
     },
     {
-      "target": "light.--bc-color-text-warning-inverse-strong",
+      "target": "light.--bc-color-text-warning-strong-inverse",
       "selected": "--bc-color-status-warning-tint-10",
       "source": "ai",
       "reason": "C9 (#ffc720) meets 4.5:1 minimum contrast against #0d0d0e and achieves 7:1 recommended target. It preserves the status warning family's yellow/orange chroma (chroma retention 0.98) while maintaining sufficient distance from white (distanceWhite 22.2) to avoid collapse. This balances readability, family character, and perceptual separation from adjacent roles.",
@@ -5454,7 +5263,7 @@
       "at": "2026-08-23T20:22:29.374Z"
     },
     {
-      "target": "light.--bc-color-text-error-inverse-strong",
+      "target": "light.--bc-color-text-error-strong-inverse",
       "selected": "--bc-color-status-error-tint-40",
       "source": "ai",
       "reason": "Meets the 4.5:1 minimum contrast requirement and exceeds the recommended 7:1 target. Preserves the family's recognisable red chroma (chroma 0.123) while avoiding near-white collapse. The lightness (0.73) and chroma retention (0.67) provide sufficient perceptual separation from the dark background (#0d0d0e) without sacrificing family character.",
@@ -5468,7 +5277,7 @@
       "at": "2026-08-23T20:23:29.091Z"
     },
     {
-      "target": "light.--bc-color-text-info-inverse-strong",
+      "target": "light.--bc-color-text-info-strong-inverse",
       "selected": "--bc-color-status-info-tint-60",
       "source": "ai",
       "reason": "C4 (#c49de5) meets the 7:1 recommended contrast target while preserving the family's recognisable purple chroma. It maintains meaningful perceptual separation from the dark #0d0d0e background, avoids near-white collapse, and retains sufficient chroma for hierarchy without over-saturating the light context.",
@@ -6147,7 +5956,7 @@
       "at": "2026-08-23T21:13:07.630Z"
     },
     {
-      "target": "dark.--bc-color-text-primary-inverse-strong",
+      "target": "dark.--bc-color-text-primary-strong-inverse",
       "selected": "--bc-color-identity-ramp-1-shade-10",
       "source": "ai",
       "reason": "C18 (#5219cf) meets the 4.5:1 minimum contrast against #f2f2f3 and is the darkest valid variant preserving the chromatic family character. It maintains perceptual separation from adjacent siblings while avoiding black/white collapse, aligning with the recommended 7:1 target proximity.",
@@ -6161,7 +5970,7 @@
       "at": "2026-08-23T21:14:25.646Z"
     },
     {
-      "target": "dark.--bc-color-text-secondary-inverse-strong",
+      "target": "dark.--bc-color-text-secondary-strong-inverse",
       "selected": "--bc-color-identity-ramp-2-tint-30",
       "source": "ai",
       "reason": "C7 meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) contrast targets against the light inverse background (#f2f2f3). It preserves the secondary family's chromatic identity (blue-violet hue) with sufficient chroma retention (0.59) while avoiding black/white collapse. This maintains perceptual separation from adjacent siblings and aligns with the chromatic Strong variant requirement for readable family text.",
@@ -6175,7 +5984,7 @@
       "at": "2026-08-23T21:15:12.306Z"
     },
     {
-      "target": "dark.--bc-color-text-accent-inverse-strong",
+      "target": "dark.--bc-color-text-accent-strong-inverse",
       "selected": "--bc-color-identity-ramp-3-shade-40",
       "source": "ai",
       "reason": "Meets accessibility minimum (4.5:1) and recommended (7:1) contrast against light background. Preserves chromatic family character with sufficient chroma retention (0.67) while avoiding black/white collapse. Maintains meaningful perceptual separation from adjacent roles.",
@@ -6189,7 +5998,7 @@
       "at": "2026-08-23T21:15:52.166Z"
     },
     {
-      "target": "dark.--bc-color-text-success-inverse-strong",
+      "target": "dark.--bc-color-text-success-strong-inverse",
       "selected": "--bc-color-status-success-shade-50",
       "source": "ai",
       "reason": "C13 (#10431c) meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) against the light inverse background (#f2f2f3). It preserves the family's green chroma while maintaining sufficient contrast without collapsing into black/white. The perceptual distance to white (66.7) and background distance (62.8) ensure visibility without sacrificing family identity.",
@@ -6203,7 +6012,7 @@
       "at": "2026-08-23T21:16:25.302Z"
     },
     {
-      "target": "dark.--bc-color-text-warning-inverse-strong",
+      "target": "dark.--bc-color-text-warning-strong-inverse",
       "selected": "--bc-color-status-warning-shade-60",
       "source": "ai",
       "reason": "Meets both accessibilityMinimum (4.5:1) and accessibilityRecommended (7:1) contrast targets against light background. Preserves recognisable warning family chroma (hue 86.6, chroma 0.088) without collapsing to black/white. Maintains meaningful perceptual separation from adjacent siblings while aligning with BufferCore's chromatic family rules.",
@@ -6217,7 +6026,7 @@
       "at": "2026-08-23T21:16:56.767Z"
     },
     {
-      "target": "dark.--bc-color-text-error-inverse-strong",
+      "target": "dark.--bc-color-text-error-strong-inverse",
       "selected": "--bc-color-status-error-shade-30",
       "source": "ai",
       "reason": "Meets Recommended 7:1 contrast against light background while preserving the family's dark red chroma. Maintains perceptual separation from adjacent tones without collapsing into black/white.",
@@ -6231,7 +6040,7 @@
       "at": "2026-08-23T21:18:18.147Z"
     },
     {
-      "target": "dark.--bc-color-text-info-inverse-strong",
+      "target": "dark.--bc-color-text-info-strong-inverse",
       "selected": "--bc-color-status-info-shade-90",
       "source": "ai",
       "reason": "Meets accessibility minimum (4.5:1) with contrast 6.53:1 against light background. Preserves family chroma as the darkest allowable shade while maintaining perceptual separation from adjacent tones. Avoids unnecessary black/white collapse by retaining meaningful chroma retention (0.97) and distance from white (56.4).",

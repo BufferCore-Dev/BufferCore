@@ -1,7 +1,7 @@
 //
 // Semantics: Colour / Dark / Text
 //
-// General Text uses Neutral hierarchy. Chromatic Base is literal family Base; Strong is a readable same-family scaffold choice.
+// General Text uses Neutral hierarchy. Chromatic families expose Base + Strong + Strong Inverse: Base is literal; Strong variants are readable same-family choices for opposing contexts.
 [data-bc-mode="dark"] {
     --bc-color-text-muted: var(--bc-color-neutral-40);
     --bc-color-text-subtle: var(--bc-color-neutral-20);
@@ -14,43 +14,36 @@
     // Primary
     --bc-color-text-primary: var(--bc-color-identity-ramp-1);
     --bc-color-text-primary-strong: var(--bc-color-identity-ramp-1-tint-60);
-    --bc-color-text-primary-inverse: var(--bc-color-identity-ramp-1);
-    --bc-color-text-primary-inverse-strong: var(--bc-color-identity-ramp-1-shade-60);
+    --bc-color-text-primary-strong-inverse: var(--bc-color-identity-ramp-1-shade-60);
 
     // Secondary
     --bc-color-text-secondary: var(--bc-color-identity-ramp-2);
     --bc-color-text-secondary-strong: var(--bc-color-identity-ramp-2-tint-60);
-    --bc-color-text-secondary-inverse: var(--bc-color-identity-ramp-2);
-    --bc-color-text-secondary-inverse-strong: var(--bc-color-identity-ramp-2-shade-60);
+    --bc-color-text-secondary-strong-inverse: var(--bc-color-identity-ramp-2-shade-60);
 
     // Accent
     --bc-color-text-accent: var(--bc-color-identity-ramp-3);
     --bc-color-text-accent-strong: var(--bc-color-identity-ramp-3-tint-60);
-    --bc-color-text-accent-inverse: var(--bc-color-identity-ramp-3);
-    --bc-color-text-accent-inverse-strong: var(--bc-color-identity-ramp-3-shade-60);
+    --bc-color-text-accent-strong-inverse: var(--bc-color-identity-ramp-3-shade-60);
 
     // Success
     --bc-color-text-success: var(--bc-color-status-success);
     --bc-color-text-success-strong: var(--bc-color-status-success-tint-60);
-    --bc-color-text-success-inverse: var(--bc-color-status-success);
-    --bc-color-text-success-inverse-strong: var(--bc-color-status-success-shade-60);
+    --bc-color-text-success-strong-inverse: var(--bc-color-status-success-shade-60);
 
     // Warning
     --bc-color-text-warning: var(--bc-color-status-warning);
     --bc-color-text-warning-strong: var(--bc-color-status-warning-tint-60);
-    --bc-color-text-warning-inverse: var(--bc-color-status-warning);
-    --bc-color-text-warning-inverse-strong: var(--bc-color-status-warning-shade-60);
+    --bc-color-text-warning-strong-inverse: var(--bc-color-status-warning-shade-60);
 
     // Error
     --bc-color-text-error: var(--bc-color-status-error);
     --bc-color-text-error-strong: var(--bc-color-status-error-tint-60);
-    --bc-color-text-error-inverse: var(--bc-color-status-error);
-    --bc-color-text-error-inverse-strong: var(--bc-color-status-error-shade-60);
+    --bc-color-text-error-strong-inverse: var(--bc-color-status-error-shade-60);
 
     // Info
     --bc-color-text-info: var(--bc-color-status-info);
     --bc-color-text-info-strong: var(--bc-color-status-info-tint-60);
-    --bc-color-text-info-inverse: var(--bc-color-status-info);
-    --bc-color-text-info-inverse-strong: var(--bc-color-status-info-shade-60);
+    --bc-color-text-info-strong-inverse: var(--bc-color-status-info-shade-60);
 
 }
