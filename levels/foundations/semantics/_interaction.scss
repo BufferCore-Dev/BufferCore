@@ -1,0 +1,11 @@
+//
+// Semantics: Interaction
+//
+// Interaction-state presentation that is independent of colour role.
+//
+// Disabled is a state transformation, not a colour family. Components keep
+// their normal Context / role bindings and apply this opacity when disabled.
+//
+:root {
+    --bc-interaction-disabled-opacity: var(--bc-opacity-45);
+}

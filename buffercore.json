@@ -20,5 +20,117 @@
         "kind": "path-segment"
       }
     }
-  ]
+  ],
+  "foundationContracts": {
+    "schemaVersion": 1,
+    "context": {
+      "colour": {
+        "foundation": "colour",
+        "consumer": "variables",
+        "requiredSlots": [
+          "--bc-color-text-context",
+          "--bc-color-text-context-strong",
+          "--bc-color-text-context-inverse",
+          "--bc-color-text-context-inverse-strong",
+          "--bc-color-fill-context-subtle",
+          "--bc-color-fill-context-soft",
+          "--bc-color-fill-context",
+          "--bc-color-fill-context-strong",
+          "--bc-color-fill-context-bold",
+          "--bc-color-border-context-subtle",
+          "--bc-color-border-context",
+          "--bc-color-border-context-strong",
+          "--bc-color-border-context-bold",
+          "--bc-color-surface-context",
+          "--bc-color-surface-context-strong"
+        ],
+        "requiredTargets": [
+          "neutral",
+          "primary",
+          "secondary",
+          "accent",
+          "success",
+          "warning",
+          "error",
+          "info"
+        ],
+        "figma": {
+          "representation": "variables",
+          "required": true
+        }
+      },
+      "typography": {
+        "foundation": "typography",
+        "consumer": "text-style",
+        "requiredSlots": [
+          "--bc-type-context-font-family",
+          "--bc-type-context-font-size",
+          "--bc-type-context-font-weight",
+          "--bc-type-context-line-height",
+          "--bc-type-context-letter-spacing"
+        ],
+        "codeOnlySlots": [
+          "--bc-type-context-font-style",
+          "--bc-type-context-text-transform"
+        ],
+        "requiredTargets": [
+          "display-1",
+          "display-2",
+          "display-3",
+          "display-4",
+          "display-5",
+          "display-6",
+          "heading-1",
+          "heading-2",
+          "heading-3",
+          "heading-4",
+          "heading-5",
+          "heading-6",
+          "paragraph-1",
+          "paragraph-2",
+          "paragraph-3",
+          "paragraph-4",
+          "label-1",
+          "label-2",
+          "label-3",
+          "label-4",
+          "overline-1",
+          "overline-2"
+        ],
+        "figma": {
+          "representation": "text-styles",
+          "required": true
+        }
+      },
+      "shadows": {
+        "foundation": "shadows",
+        "consumer": "effect-style",
+        "requiredSlots": [
+          "--bc-shadow-context-fallen",
+          "--bc-shadow-context-resting",
+          "--bc-shadow-context-floating"
+        ],
+        "requiredTargets": [
+          "soft",
+          "medium",
+          "strong"
+        ],
+        "figma": {
+          "representation": "effect-styles",
+          "required": true
+        }
+      }
+    },
+    "interactionStates": {
+      "disabled": {
+        "semantic": "--bc-interaction-disabled-opacity",
+        "primitive": "--bc-opacity-45",
+        "figma": {
+          "representation": "variable",
+          "scope": "OPACITY",
+          "required": true
+        }
+      }
+    }
+  }
 }

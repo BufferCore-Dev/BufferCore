@@ -1,8 +1,8 @@
 //
 // Utilities: Colour / Interaction
 //
-// Public Interaction utility subset.
-// Disabled-state Semantic tokens are intentionally not mirrored as public utilities.
+// Public colour-interaction utility subset.
+// Disabled is not a colour role; it is owned by Semantic Interaction opacity.
 //
 
 .bc-color-link { color: var(--bc-color-link); }

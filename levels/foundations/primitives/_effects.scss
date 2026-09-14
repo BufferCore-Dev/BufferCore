@@ -1,7 +1,7 @@
 //
 // Primitives: Effects
 //
-// Raw reusable visual-effect values. Current Primitive scope is Blur.
+// Raw reusable visual-effect values.
 //
 
 :root {
@@ -12,5 +12,12 @@
     --bc-blur-6: blur(6px);
     --bc-blur-12: blur(12px);
     --bc-blur-24: blur(24px);
+
+    //
+    // Opacity
+    //
+    // Raw opacity values remain presentation-neutral. Semantic interaction
+    // states decide what a value means.
+    --bc-opacity-45: 0.45;
 
 }
