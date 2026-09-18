@@ -1,49 +1,39 @@
 //
 // Semantics: Colour / Dark / Border
 //
-// Four roles: Subtle → Base → Strong → Bold. Soft does not exist.
-// Base remains useful; Bold is always beyond Strong on the strong side.
+// BufferCore baseline mappings promoted from the approved Studio Colour review.
+// Four roles: Subtle → Base → Strong → Bold.
 [data-bc-mode="dark"] {
-    --bc-color-border-neutral-subtle: var(--bc-color-neutral-75);
+    --bc-color-border-neutral-subtle: var(--bc-color-neutral-90);
     --bc-color-border-neutral: var(--bc-color-neutral-50);
-    --bc-color-border-neutral-strong: var(--bc-color-neutral-30);
-    --bc-color-border-neutral-bold: var(--bc-color-neutral-15);
-
-    --bc-color-border-primary-subtle: var(--bc-color-identity-ramp-1-shade-80);
-    --bc-color-border-primary: var(--bc-color-identity-ramp-1-shade-40);
-    --bc-color-border-primary-strong: var(--bc-color-identity-ramp-1);
+    --bc-color-border-neutral-strong: var(--bc-color-neutral-40);
+    --bc-color-border-neutral-bold: var(--bc-color-neutral-20);
+    --bc-color-border-primary-subtle: var(--bc-color-identity-ramp-1-shade-60);
+    --bc-color-border-primary: var(--bc-color-identity-ramp-1-tint-20);
+    --bc-color-border-primary-strong: var(--bc-color-identity-ramp-1-tint-40);
     --bc-color-border-primary-bold: var(--bc-color-identity-ramp-1-tint-50);
-
     --bc-color-border-secondary-subtle: var(--bc-color-identity-ramp-2-shade-80);
-    --bc-color-border-secondary: var(--bc-color-identity-ramp-2-shade-40);
-    --bc-color-border-secondary-strong: var(--bc-color-identity-ramp-2);
-    --bc-color-border-secondary-bold: var(--bc-color-identity-ramp-2-tint-50);
-
+    --bc-color-border-secondary: var(--bc-color-identity-ramp-2-tint-40);
+    --bc-color-border-secondary-strong: var(--bc-color-identity-ramp-2-tint-50);
+    --bc-color-border-secondary-bold: var(--bc-color-identity-ramp-2-tint-60);
     --bc-color-border-accent-subtle: var(--bc-color-identity-ramp-3-shade-80);
-    --bc-color-border-accent: var(--bc-color-identity-ramp-3-shade-40);
+    --bc-color-border-accent: var(--bc-color-identity-ramp-3-shade-30);
     --bc-color-border-accent-strong: var(--bc-color-identity-ramp-3);
-    --bc-color-border-accent-bold: var(--bc-color-identity-ramp-3-tint-50);
-
-    --bc-color-border-success-subtle: var(--bc-color-status-success-shade-80);
-    --bc-color-border-success: var(--bc-color-status-success-shade-40);
+    --bc-color-border-accent-bold: var(--bc-color-identity-ramp-3-tint-40);
+    --bc-color-border-success-subtle: var(--bc-color-status-success-shade-70);
+    --bc-color-border-success: var(--bc-color-status-success-shade-30);
     --bc-color-border-success-strong: var(--bc-color-status-success);
-    --bc-color-border-success-bold: var(--bc-color-status-success-tint-50);
-
-    --bc-color-border-warning-subtle: var(--bc-color-status-warning-shade-80);
+    --bc-color-border-success-bold: var(--bc-color-status-success-tint-40);
+    --bc-color-border-warning-subtle: var(--bc-color-status-warning-shade-70);
     --bc-color-border-warning: var(--bc-color-status-warning-shade-40);
     --bc-color-border-warning-strong: var(--bc-color-status-warning);
-    --bc-color-border-warning-bold: var(--bc-color-status-warning-tint-50);
-
-    --bc-color-border-error-subtle: var(--bc-color-status-error-shade-80);
-    --bc-color-border-error: var(--bc-color-status-error-shade-40);
-    --bc-color-border-error-strong: var(--bc-color-status-error);
-    --bc-color-border-error-bold: var(--bc-color-status-error-tint-50);
-
-    --bc-color-border-info-subtle: var(--bc-color-status-info-shade-80);
-    --bc-color-border-info: var(--bc-color-status-info-shade-40);
-    --bc-color-border-info-strong: var(--bc-color-status-info);
-    --bc-color-border-info-bold: var(--bc-color-status-info-tint-50);
-
-    // Accessibility for identifying UI boundaries is validated against the actual adjacent
-    // Canvas/Surface: Base/Strong/Bold minimum 3:1, recommended 4.5:1.
+    --bc-color-border-warning-bold: var(--bc-color-status-warning-tint-40);
+    --bc-color-border-error-subtle: var(--bc-color-status-error-shade-70);
+    --bc-color-border-error: var(--bc-color-status-error-shade-10);
+    --bc-color-border-error-strong: var(--bc-color-status-error-tint-20);
+    --bc-color-border-error-bold: var(--bc-color-status-error-tint-40);
+    --bc-color-border-info-subtle: var(--bc-color-status-info-shade-60);
+    --bc-color-border-info: var(--bc-color-status-info-tint-20);
+    --bc-color-border-info-strong: var(--bc-color-status-info-tint-40);
+    --bc-color-border-info-bold: var(--bc-color-status-info-tint-60);
 }

@@ -1,70 +1,70 @@
 //
 // Primitives: Colour / Identity
 //
-// Project values intentionally left unset.
-// Supply Base plus generated Tint/Shade tones from the approved colour builder.
+// BufferCore baseline source values with deterministic Tint/Shade families.
+//
 :root {
     // Identity Ramp 1
-    --bc-color-identity-ramp-1-tint-90: initial;
-    --bc-color-identity-ramp-1-tint-80: initial;
-    --bc-color-identity-ramp-1-tint-70: initial;
-    --bc-color-identity-ramp-1-tint-60: initial;
-    --bc-color-identity-ramp-1-tint-50: initial;
-    --bc-color-identity-ramp-1-tint-40: initial;
-    --bc-color-identity-ramp-1-tint-30: initial;
-    --bc-color-identity-ramp-1-tint-20: initial;
-    --bc-color-identity-ramp-1-tint-10: initial;
-    --bc-color-identity-ramp-1: initial;
-    --bc-color-identity-ramp-1-shade-10: initial;
-    --bc-color-identity-ramp-1-shade-20: initial;
-    --bc-color-identity-ramp-1-shade-30: initial;
-    --bc-color-identity-ramp-1-shade-40: initial;
-    --bc-color-identity-ramp-1-shade-50: initial;
-    --bc-color-identity-ramp-1-shade-60: initial;
-    --bc-color-identity-ramp-1-shade-70: initial;
-    --bc-color-identity-ramp-1-shade-80: initial;
-    --bc-color-identity-ramp-1-shade-90: initial;
+    --bc-color-identity-ramp-1-tint-90: #efe8fd;
+    --bc-color-identity-ramp-1-tint-80: #ded2fa;
+    --bc-color-identity-ramp-1-tint-70: #cebbf8;
+    --bc-color-identity-ramp-1-tint-60: #bda4f5;
+    --bc-color-identity-ramp-1-tint-50: #ad8ef3;
+    --bc-color-identity-ramp-1-tint-40: #9d77f0;
+    --bc-color-identity-ramp-1-tint-30: #8c60ee;
+    --bc-color-identity-ramp-1-tint-20: #7c49eb;
+    --bc-color-identity-ramp-1-tint-10: #6b33e9;
+    --bc-color-identity-ramp-1: #5b1ce6;
+    --bc-color-identity-ramp-1-shade-10: #5219cf;
+    --bc-color-identity-ramp-1-shade-20: #4916b8;
+    --bc-color-identity-ramp-1-shade-30: #4014a1;
+    --bc-color-identity-ramp-1-shade-40: #37118a;
+    --bc-color-identity-ramp-1-shade-50: #2e0e73;
+    --bc-color-identity-ramp-1-shade-60: #240b5c;
+    --bc-color-identity-ramp-1-shade-70: #1b0845;
+    --bc-color-identity-ramp-1-shade-80: #12062e;
+    --bc-color-identity-ramp-1-shade-90: #090317;
 
     // Identity Ramp 2
-    --bc-color-identity-ramp-2-tint-90: initial;
-    --bc-color-identity-ramp-2-tint-80: initial;
-    --bc-color-identity-ramp-2-tint-70: initial;
-    --bc-color-identity-ramp-2-tint-60: initial;
-    --bc-color-identity-ramp-2-tint-50: initial;
-    --bc-color-identity-ramp-2-tint-40: initial;
-    --bc-color-identity-ramp-2-tint-30: initial;
-    --bc-color-identity-ramp-2-tint-20: initial;
-    --bc-color-identity-ramp-2-tint-10: initial;
-    --bc-color-identity-ramp-2: initial;
-    --bc-color-identity-ramp-2-shade-10: initial;
-    --bc-color-identity-ramp-2-shade-20: initial;
-    --bc-color-identity-ramp-2-shade-30: initial;
-    --bc-color-identity-ramp-2-shade-40: initial;
-    --bc-color-identity-ramp-2-shade-50: initial;
-    --bc-color-identity-ramp-2-shade-60: initial;
-    --bc-color-identity-ramp-2-shade-70: initial;
-    --bc-color-identity-ramp-2-shade-80: initial;
-    --bc-color-identity-ramp-2-shade-90: initial;
+    --bc-color-identity-ramp-2-tint-90: #e6e6eb;
+    --bc-color-identity-ramp-2-tint-80: #ccccd7;
+    --bc-color-identity-ramp-2-tint-70: #b3b3c2;
+    --bc-color-identity-ramp-2-tint-60: #9999ae;
+    --bc-color-identity-ramp-2-tint-50: #80809a;
+    --bc-color-identity-ramp-2-tint-40: #666686;
+    --bc-color-identity-ramp-2-tint-30: #4d4d72;
+    --bc-color-identity-ramp-2-tint-20: #33335d;
+    --bc-color-identity-ramp-2-tint-10: #1a1a49;
+    --bc-color-identity-ramp-2: #000035;
+    --bc-color-identity-ramp-2-shade-10: #000030;
+    --bc-color-identity-ramp-2-shade-20: #00002a;
+    --bc-color-identity-ramp-2-shade-30: #000025;
+    --bc-color-identity-ramp-2-shade-40: #000020;
+    --bc-color-identity-ramp-2-shade-50: #00001b;
+    --bc-color-identity-ramp-2-shade-60: #000015;
+    --bc-color-identity-ramp-2-shade-70: #000010;
+    --bc-color-identity-ramp-2-shade-80: #00000b;
+    --bc-color-identity-ramp-2-shade-90: #000005;
 
     // Identity Ramp 3
-    --bc-color-identity-ramp-3-tint-90: initial;
-    --bc-color-identity-ramp-3-tint-80: initial;
-    --bc-color-identity-ramp-3-tint-70: initial;
-    --bc-color-identity-ramp-3-tint-60: initial;
-    --bc-color-identity-ramp-3-tint-50: initial;
-    --bc-color-identity-ramp-3-tint-40: initial;
-    --bc-color-identity-ramp-3-tint-30: initial;
-    --bc-color-identity-ramp-3-tint-20: initial;
-    --bc-color-identity-ramp-3-tint-10: initial;
-    --bc-color-identity-ramp-3: initial;
-    --bc-color-identity-ramp-3-shade-10: initial;
-    --bc-color-identity-ramp-3-shade-20: initial;
-    --bc-color-identity-ramp-3-shade-30: initial;
-    --bc-color-identity-ramp-3-shade-40: initial;
-    --bc-color-identity-ramp-3-shade-50: initial;
-    --bc-color-identity-ramp-3-shade-60: initial;
-    --bc-color-identity-ramp-3-shade-70: initial;
-    --bc-color-identity-ramp-3-shade-80: initial;
-    --bc-color-identity-ramp-3-shade-90: initial;
+    --bc-color-identity-ramp-3-tint-90: #ffece8;
+    --bc-color-identity-ramp-3-tint-80: #ffd9d1;
+    --bc-color-identity-ramp-3-tint-70: #ffc6ba;
+    --bc-color-identity-ramp-3-tint-60: #ffb3a3;
+    --bc-color-identity-ramp-3-tint-50: #ffa08d;
+    --bc-color-identity-ramp-3-tint-40: #ff8c76;
+    --bc-color-identity-ramp-3-tint-30: #ff795f;
+    --bc-color-identity-ramp-3-tint-20: #ff6648;
+    --bc-color-identity-ramp-3-tint-10: #ff5331;
+    --bc-color-identity-ramp-3: #ff401a;
+    --bc-color-identity-ramp-3-shade-10: #e63a17;
+    --bc-color-identity-ramp-3-shade-20: #cc3315;
+    --bc-color-identity-ramp-3-shade-30: #b32d12;
+    --bc-color-identity-ramp-3-shade-40: #992610;
+    --bc-color-identity-ramp-3-shade-50: #80200d;
+    --bc-color-identity-ramp-3-shade-60: #661a0a;
+    --bc-color-identity-ramp-3-shade-70: #4d1308;
+    --bc-color-identity-ramp-3-shade-80: #330d05;
+    --bc-color-identity-ramp-3-shade-90: #190603;
 
 }

@@ -1,29 +1,29 @@
 //
 // Primitives: Colour / Neutral
 //
-// Absolute mode-independent Neutral Step scale.
-// 0 = literal white, 100 = literal black, 50 = chosen neutral Base.
-// Actual project values intentionally left unset.
+// Absolute mode-independent BufferCore baseline Neutral Step scale.
+// 0 = literal white, 100 = literal black, 50 = baseline neutral Base.
+//
 :root {
-    --bc-color-neutral-0: initial;
-    --bc-color-neutral-5: initial;
-    --bc-color-neutral-10: initial;
-    --bc-color-neutral-15: initial;
-    --bc-color-neutral-20: initial;
-    --bc-color-neutral-25: initial;
-    --bc-color-neutral-30: initial;
-    --bc-color-neutral-35: initial;
-    --bc-color-neutral-40: initial;
-    --bc-color-neutral-45: initial;
-    --bc-color-neutral-50: initial;
-    --bc-color-neutral-55: initial;
-    --bc-color-neutral-60: initial;
-    --bc-color-neutral-65: initial;
-    --bc-color-neutral-70: initial;
-    --bc-color-neutral-75: initial;
-    --bc-color-neutral-80: initial;
-    --bc-color-neutral-85: initial;
-    --bc-color-neutral-90: initial;
-    --bc-color-neutral-95: initial;
-    --bc-color-neutral-100: initial;
+    --bc-color-neutral-0: #ffffff;
+    --bc-color-neutral-5: #f2f2f3;
+    --bc-color-neutral-10: #e5e5e7;
+    --bc-color-neutral-15: #d9d9dc;
+    --bc-color-neutral-20: #ccccd0;
+    --bc-color-neutral-25: #bfbfc4;
+    --bc-color-neutral-30: #b2b2b8;
+    --bc-color-neutral-35: #a5a5ac;
+    --bc-color-neutral-40: #9999a1;
+    --bc-color-neutral-45: #8c8c95;
+    --bc-color-neutral-50: #7f7f89;
+    --bc-color-neutral-55: #72727b;
+    --bc-color-neutral-60: #66666e;
+    --bc-color-neutral-65: #595960;
+    --bc-color-neutral-70: #4c4c52;
+    --bc-color-neutral-75: #404045;
+    --bc-color-neutral-80: #333337;
+    --bc-color-neutral-85: #262629;
+    --bc-color-neutral-90: #19191b;
+    --bc-color-neutral-95: #0d0d0e;
+    --bc-color-neutral-100: #000000;
 }

@@ -1,0 +1,8 @@
+//
+// Semantics: Colour / Dark / Canvas
+//
+[data-bc-mode="dark"] {
+    --bc-color-canvas-primary: var(--bc-color-ground-dark-ramp-1);
+    --bc-color-canvas-secondary: var(--bc-color-ground-dark-ramp-2);
+    --bc-color-canvas-tertiary: var(--bc-color-ground-dark-ramp-3);
+}

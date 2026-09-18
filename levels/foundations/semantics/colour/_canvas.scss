@@ -1,9 +1,4 @@
 //
-// Semantics: Colour / Canvas
+// Canvas semantics are mode-specific.
+// See light/_canvas.scss and dark/_canvas.scss.
 //
-// Hard mappings. Ground is Canvas-only and Canvas always consumes Ground Base.
-:root {
-    --bc-color-canvas-primary: var(--bc-color-ground-ramp-1);
-    --bc-color-canvas-secondary: var(--bc-color-ground-ramp-2);
-    --bc-color-canvas-tertiary: var(--bc-color-ground-ramp-3);
-}

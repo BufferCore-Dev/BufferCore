@@ -1,7 +1,8 @@
 //
 // Semantics: Colour / Light / Interaction
 //
-// Link / Visited / Focus normal-inverse Primitive source relationship flips in Dark mode.
+// BufferCore baseline mappings promoted from the approved Studio Colour review.
+// Normal/Inverse sources flip contextually in Dark mode.
 :root,
 [data-bc-mode="light"] {
     --bc-color-link: var(--bc-color-interaction-link);
@@ -10,7 +11,6 @@
     --bc-color-link-visited-inverse: var(--bc-color-interaction-link-visited-inverse);
     --bc-color-focus: var(--bc-color-interaction-focus);
     --bc-color-focus-inverse: var(--bc-color-interaction-focus-inverse);
-
     --bc-color-placeholder: var(--bc-color-neutral-60);
-    --bc-color-placeholder-inverse: var(--bc-color-neutral-40);
+    --bc-color-placeholder-inverse: var(--bc-color-neutral-50);
 }

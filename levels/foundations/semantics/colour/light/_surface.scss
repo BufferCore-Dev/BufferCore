@@ -1,7 +1,8 @@
 //
 // Semantics: Colour / Light / Surface
 //
-// General Surface is Neutral-derived. Chromatic Base/Strong obey hard mode bands.
+// BufferCore baseline mappings promoted from the approved Studio Colour review.
+// General and chromatic Surface choices match the approved baseline review.
 :root,
 [data-bc-mode="light"] {
     --bc-color-surface-general-primary: var(--bc-color-neutral-5);
@@ -10,22 +11,18 @@
     --bc-color-surface-general-secondary-strong: var(--bc-color-neutral-90);
     --bc-color-surface-general-tertiary: var(--bc-color-neutral-15);
     --bc-color-surface-general-tertiary-strong: var(--bc-color-neutral-85);
-
-    --bc-color-surface-identity-primary: var(--bc-color-identity-ramp-1-tint-90);
-    --bc-color-surface-identity-primary-strong: var(--bc-color-identity-ramp-1-shade-60);
+    --bc-color-surface-identity-primary: var(--bc-color-identity-ramp-1-tint-80);
+    --bc-color-surface-identity-primary-strong: var(--bc-color-identity-ramp-1-shade-80);
     --bc-color-surface-identity-secondary: var(--bc-color-identity-ramp-2-tint-90);
-    --bc-color-surface-identity-secondary-strong: var(--bc-color-identity-ramp-2-shade-60);
-    --bc-color-surface-identity-accent: var(--bc-color-identity-ramp-3-tint-90);
-    --bc-color-surface-identity-accent-strong: var(--bc-color-identity-ramp-3-shade-60);
-    --bc-color-surface-success: var(--bc-color-status-success-tint-90);
+    --bc-color-surface-identity-secondary-strong: var(--bc-color-identity-ramp-2-shade-50);
+    --bc-color-surface-identity-accent: var(--bc-color-identity-ramp-3-tint-80);
+    --bc-color-surface-identity-accent-strong: var(--bc-color-identity-ramp-3-shade-50);
+    --bc-color-surface-success: var(--bc-color-status-success-tint-80);
     --bc-color-surface-success-strong: var(--bc-color-status-success-shade-60);
-    --bc-color-surface-warning: var(--bc-color-status-warning-tint-90);
+    --bc-color-surface-warning: var(--bc-color-status-warning-tint-80);
     --bc-color-surface-warning-strong: var(--bc-color-status-warning-shade-60);
-    --bc-color-surface-error: var(--bc-color-status-error-tint-90);
-    --bc-color-surface-error-strong: var(--bc-color-status-error-shade-60);
-    --bc-color-surface-info: var(--bc-color-status-info-tint-90);
-    --bc-color-surface-info-strong: var(--bc-color-status-info-shade-60);
-
-    // NOTE: Project generation may move chromatic Surface choices within the hard legal bands
-    // after perceptual colour-character checks. These scaffold mappings stay inside those bands.
+    --bc-color-surface-error: var(--bc-color-status-error-tint-80);
+    --bc-color-surface-error-strong: var(--bc-color-status-error-shade-50);
+    --bc-color-surface-info: var(--bc-color-status-info-tint-80);
+    --bc-color-surface-info-strong: var(--bc-color-status-info-shade-50);
 }

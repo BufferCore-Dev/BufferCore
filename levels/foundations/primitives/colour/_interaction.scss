@@ -1,13 +1,14 @@
 //
 // Primitives: Colour / Interaction
 //
-// Dedicated mode-independent interaction sources.
+// BufferCore baseline mode-independent interaction sources.
 // Normal/Inverse source interpretation flips contextually at Semantic Dark mode.
+//
 :root {
-    --bc-color-interaction-link: initial;
-    --bc-color-interaction-link-inverse: initial;
-    --bc-color-interaction-link-visited: initial;
-    --bc-color-interaction-link-visited-inverse: initial;
-    --bc-color-interaction-focus: initial;
-    --bc-color-interaction-focus-inverse: initial;
+    --bc-color-interaction-link: #005fcc;
+    --bc-color-interaction-link-inverse: #8ab4f8;
+    --bc-color-interaction-link-visited: #6f42c1;
+    --bc-color-interaction-link-visited-inverse: #c4b5fd;
+    --bc-color-interaction-focus: #007a78;
+    --bc-color-interaction-focus-inverse: #5eead4;
 }

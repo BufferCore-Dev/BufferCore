@@ -1,10 +1,134 @@
 //
 // Primitives: Colour / Ground
 //
-// Ground is Canvas-only. Only the three Base source values are required.
-// No Ground tonal family is exposed at Semantic or Utility level.
+// Light Ground anchors plus optional dedicated Dark Ground anchors.
+// Both sets are Canvas-only. Studio derives Dark Canvas from Light Ground when a Flavour omits all Dark anchors.
+//
 :root {
-    --bc-color-ground-ramp-1: initial;
-    --bc-color-ground-ramp-2: initial;
-    --bc-color-ground-ramp-3: initial;
+    // Light Ground 1
+    --bc-color-ground-ramp-1-tint-90: #fefefe;
+    --bc-color-ground-ramp-1-tint-80: #fefdfc;
+    --bc-color-ground-ramp-1-tint-70: #fefdfb;
+    --bc-color-ground-ramp-1-tint-60: #fdfcfa;
+    --bc-color-ground-ramp-1-tint-50: #fcfbf8;
+    --bc-color-ground-ramp-1-tint-40: #fcfaf7;
+    --bc-color-ground-ramp-1-tint-30: #fcf9f6;
+    --bc-color-ground-ramp-1-tint-20: #fbf9f5;
+    --bc-color-ground-ramp-1-tint-10: #faf8f3;
+    --bc-color-ground-ramp-1: #faf7f2;
+    --bc-color-ground-ramp-1-shade-10: #e1deda;
+    --bc-color-ground-ramp-1-shade-20: #c8c6c2;
+    --bc-color-ground-ramp-1-shade-30: #afada9;
+    --bc-color-ground-ramp-1-shade-40: #969491;
+    --bc-color-ground-ramp-1-shade-50: #7d7c79;
+    --bc-color-ground-ramp-1-shade-60: #646361;
+    --bc-color-ground-ramp-1-shade-70: #4b4a49;
+    --bc-color-ground-ramp-1-shade-80: #323130;
+    --bc-color-ground-ramp-1-shade-90: #191918;
+
+    // Light Ground 2
+    --bc-color-ground-ramp-2-tint-90: #ffffff;
+    --bc-color-ground-ramp-2-tint-80: #ffffff;
+    --bc-color-ground-ramp-2-tint-70: #ffffff;
+    --bc-color-ground-ramp-2-tint-60: #ffffff;
+    --bc-color-ground-ramp-2-tint-50: #fefefe;
+    --bc-color-ground-ramp-2-tint-40: #fefefe;
+    --bc-color-ground-ramp-2-tint-30: #fefefe;
+    --bc-color-ground-ramp-2-tint-20: #fefefe;
+    --bc-color-ground-ramp-2-tint-10: #fefefe;
+    --bc-color-ground-ramp-2: #fefefe;
+    --bc-color-ground-ramp-2-shade-10: #e5e5e5;
+    --bc-color-ground-ramp-2-shade-20: #cbcbcb;
+    --bc-color-ground-ramp-2-shade-30: #b2b2b2;
+    --bc-color-ground-ramp-2-shade-40: #989898;
+    --bc-color-ground-ramp-2-shade-50: #7f7f7f;
+    --bc-color-ground-ramp-2-shade-60: #666666;
+    --bc-color-ground-ramp-2-shade-70: #4c4c4c;
+    --bc-color-ground-ramp-2-shade-80: #333333;
+    --bc-color-ground-ramp-2-shade-90: #191919;
+
+    // Light Ground 3
+    --bc-color-ground-ramp-3-tint-90: #e6e6ea;
+    --bc-color-ground-ramp-3-tint-80: #ccccd4;
+    --bc-color-ground-ramp-3-tint-70: #b2b2bf;
+    --bc-color-ground-ramp-3-tint-60: #9999aa;
+    --bc-color-ground-ramp-3-tint-50: #808094;
+    --bc-color-ground-ramp-3-tint-40: #66667f;
+    --bc-color-ground-ramp-3-tint-30: #4c4c6a;
+    --bc-color-ground-ramp-3-tint-20: #333355;
+    --bc-color-ground-ramp-3-tint-10: #1a1a3f;
+    --bc-color-ground-ramp-3: #00002a;
+    --bc-color-ground-ramp-3-shade-10: #000026;
+    --bc-color-ground-ramp-3-shade-20: #000022;
+    --bc-color-ground-ramp-3-shade-30: #00001d;
+    --bc-color-ground-ramp-3-shade-40: #000019;
+    --bc-color-ground-ramp-3-shade-50: #000015;
+    --bc-color-ground-ramp-3-shade-60: #000011;
+    --bc-color-ground-ramp-3-shade-70: #00000d;
+    --bc-color-ground-ramp-3-shade-80: #000008;
+    --bc-color-ground-ramp-3-shade-90: #000004;
+
+    // Dedicated Dark Ground 1
+    --bc-color-ground-dark-ramp-1-tint-90: #e6e6ea;
+    --bc-color-ground-dark-ramp-1-tint-80: #ccccd4;
+    --bc-color-ground-dark-ramp-1-tint-70: #b2b2bf;
+    --bc-color-ground-dark-ramp-1-tint-60: #9999aa;
+    --bc-color-ground-dark-ramp-1-tint-50: #808094;
+    --bc-color-ground-dark-ramp-1-tint-40: #66667f;
+    --bc-color-ground-dark-ramp-1-tint-30: #4c4c6a;
+    --bc-color-ground-dark-ramp-1-tint-20: #333355;
+    --bc-color-ground-dark-ramp-1-tint-10: #1a1a3f;
+    --bc-color-ground-dark-ramp-1: #00002a;
+    --bc-color-ground-dark-ramp-1-shade-10: #000026;
+    --bc-color-ground-dark-ramp-1-shade-20: #000022;
+    --bc-color-ground-dark-ramp-1-shade-30: #00001d;
+    --bc-color-ground-dark-ramp-1-shade-40: #000019;
+    --bc-color-ground-dark-ramp-1-shade-50: #000015;
+    --bc-color-ground-dark-ramp-1-shade-60: #000011;
+    --bc-color-ground-dark-ramp-1-shade-70: #00000d;
+    --bc-color-ground-dark-ramp-1-shade-80: #000008;
+    --bc-color-ground-dark-ramp-1-shade-90: #000004;
+
+    // Dedicated Dark Ground 2
+    --bc-color-ground-dark-ramp-2-tint-90: #e8e8e8;
+    --bc-color-ground-dark-ramp-2-tint-80: #d1d1d1;
+    --bc-color-ground-dark-ramp-2-tint-70: #bababa;
+    --bc-color-ground-dark-ramp-2-tint-60: #a3a3a3;
+    --bc-color-ground-dark-ramp-2-tint-50: #8c8c8c;
+    --bc-color-ground-dark-ramp-2-tint-40: #757575;
+    --bc-color-ground-dark-ramp-2-tint-30: #5e5e5e;
+    --bc-color-ground-dark-ramp-2-tint-20: #474747;
+    --bc-color-ground-dark-ramp-2-tint-10: #303030;
+    --bc-color-ground-dark-ramp-2: #191919;
+    --bc-color-ground-dark-ramp-2-shade-10: #161616;
+    --bc-color-ground-dark-ramp-2-shade-20: #141414;
+    --bc-color-ground-dark-ramp-2-shade-30: #121212;
+    --bc-color-ground-dark-ramp-2-shade-40: #0f0f0f;
+    --bc-color-ground-dark-ramp-2-shade-50: #0c0c0c;
+    --bc-color-ground-dark-ramp-2-shade-60: #0a0a0a;
+    --bc-color-ground-dark-ramp-2-shade-70: #080808;
+    --bc-color-ground-dark-ramp-2-shade-80: #050505;
+    --bc-color-ground-dark-ramp-2-shade-90: #020202;
+
+    // Dedicated Dark Ground 3
+    --bc-color-ground-dark-ramp-3-tint-90: #e9e9eb;
+    --bc-color-ground-dark-ramp-3-tint-80: #d3d3d8;
+    --bc-color-ground-dark-ramp-3-tint-70: #bdbdc4;
+    --bc-color-ground-dark-ramp-3-tint-60: #a7a7b0;
+    --bc-color-ground-dark-ramp-3-tint-50: #92929c;
+    --bc-color-ground-dark-ramp-3-tint-40: #7c7c89;
+    --bc-color-ground-dark-ramp-3-tint-30: #666675;
+    --bc-color-ground-dark-ramp-3-tint-20: #505061;
+    --bc-color-ground-dark-ramp-3-tint-10: #3a3a4e;
+    --bc-color-ground-dark-ramp-3: #24243a;
+    --bc-color-ground-dark-ramp-3-shade-10: #202034;
+    --bc-color-ground-dark-ramp-3-shade-20: #1d1d2e;
+    --bc-color-ground-dark-ramp-3-shade-30: #191929;
+    --bc-color-ground-dark-ramp-3-shade-40: #161623;
+    --bc-color-ground-dark-ramp-3-shade-50: #12121d;
+    --bc-color-ground-dark-ramp-3-shade-60: #0e0e17;
+    --bc-color-ground-dark-ramp-3-shade-70: #0b0b11;
+    --bc-color-ground-dark-ramp-3-shade-80: #07070c;
+    --bc-color-ground-dark-ramp-3-shade-90: #040406;
+
 }
