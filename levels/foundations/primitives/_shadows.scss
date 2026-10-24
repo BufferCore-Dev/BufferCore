@@ -10,15 +10,9 @@
 @use "../abstracts/shadow-recipes" as shadow-recipes;
 
 :root {
-    @each $strength, $levels in shadow-recipes.$bc-shadow-recipes {
-        @each $level, $layers in $levels {
-            @for $index from 1 through list.length($layers) {
-                $layer: list.nth($layers, $index);
-
-                --bc-shadow-geometry-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 1)};
-                --bc-shadow-spread-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 2)};
-                --bc-shadow-opacity-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 3)};
-            }
-        }
+    @include shadow-recipes.each-layer using ($strength, $level, $index, $layer) {
+        --bc-shadow-geometry-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 1)};
+        --bc-shadow-spread-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 2)};
+        --bc-shadow-opacity-#{$strength}-#{$level}-#{$index}: #{list.nth($layer, 3)};
     }
 }

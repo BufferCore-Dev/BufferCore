@@ -8,6 +8,13 @@
     font-weight: var(--bc-type-#{$family}-#{$index}-font-weight);
     line-height: var(--bc-type-#{$family}-#{$index}-line-height);
     letter-spacing: var(--bc-type-#{$family}-#{$index}-letter-spacing);
+
+    // Match Figma's "Cap height to baseline" vertical trim where supported.
+    // Browsers without text-box support retain the normal line box fallback.
+    @supports (text-box-trim: trim-both) and (text-box-edge: cap alphabetic) {
+        text-box-trim: trim-both;
+        text-box-edge: cap alphabetic;
+    }
 }
 
 @for $index from 1 through 6 {

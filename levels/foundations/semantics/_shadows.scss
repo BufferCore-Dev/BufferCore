@@ -34,11 +34,9 @@
 }
 
 :root {
-    @each $strength, $levels in shadow-recipes.$bc-shadow-recipes {
-        @each $level, $layers in $levels {
-            --bc-shadow-#{$strength}-#{$level}:
-                #{bc-shadow-recipe($strength, $level, $layers)};
-        }
+    @include shadow-recipes.each-recipe using ($strength, $level, $layers) {
+        --bc-shadow-#{$strength}-#{$level}:
+            #{bc-shadow-recipe($strength, $level, $layers)};
     }
 
     //

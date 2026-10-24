@@ -72,3 +72,25 @@ h6 {
     line-height: var(--bc-type-heading-6-line-height);
     letter-spacing: var(--bc-type-heading-6-letter-spacing);
 }
+
+//
+// Vertical trim
+//
+// Mirror Figma text styles set to "Cap height to baseline". The web mapping
+// uses the CSS text-box model when supported and falls back to the browser's
+// normal line box everywhere else.
+//
+@supports (text-box-trim: trim-both) and (text-box-edge: cap alphabetic) {
+    body,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-box-trim: trim-both;
+        text-box-edge: cap alphabetic;
+    }
+}
+

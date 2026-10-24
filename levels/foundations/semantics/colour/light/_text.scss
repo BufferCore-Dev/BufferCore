@@ -2,7 +2,7 @@
 // Semantics: Colour / Light / Text
 //
 // BufferCore baseline mappings promoted from the approved Studio Colour review.
-// General and chromatic Text hierarchy follows the approved baseline review.
+// Neutral and chromatic Text hierarchy follows the approved baseline review.
 :root,
 [data-bc-mode="light"] {
     --bc-color-text-muted: var(--bc-color-neutral-60);
@@ -30,6 +30,6 @@
     --bc-color-text-error-strong: var(--bc-color-status-error-shade-40);
     --bc-color-text-error-strong-inverse: var(--bc-color-status-error-tint-50);
     --bc-color-text-info: var(--bc-color-status-info);
-    --bc-color-text-info-strong: var(--bc-color-status-info-shade-30);
+    --bc-color-text-info-strong: var(--bc-color-status-info-shade-40);
     --bc-color-text-info-strong-inverse: var(--bc-color-status-info-tint-60);
 }

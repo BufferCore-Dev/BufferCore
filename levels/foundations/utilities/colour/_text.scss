@@ -2,8 +2,17 @@
 // Utilities: Colour / Text
 //
 // Public Text utility subset. Status Text remains Semantic-only.
+// Neutral is the public family name; canonical token identities remain stable.
 //
 
+.bc-color-text-neutral-muted { color: var(--bc-color-text-muted); }
+.bc-color-text-neutral-subtle { color: var(--bc-color-text-subtle); }
+.bc-color-text-neutral { color: var(--bc-color-text); }
+.bc-color-text-neutral-inverse-muted { color: var(--bc-color-text-inverse-muted); }
+.bc-color-text-neutral-inverse-subtle { color: var(--bc-color-text-inverse-subtle); }
+.bc-color-text-neutral-inverse { color: var(--bc-color-text-inverse); }
+
+// Legacy utility names retained for compatibility.
 .bc-color-text-muted { color: var(--bc-color-text-muted); }
 .bc-color-text-subtle { color: var(--bc-color-text-subtle); }
 .bc-color-text { color: var(--bc-color-text); }
@@ -14,11 +23,9 @@
 .bc-color-text-primary { color: var(--bc-color-text-primary); }
 .bc-color-text-primary-strong { color: var(--bc-color-text-primary-strong); }
 .bc-color-text-primary-strong-inverse { color: var(--bc-color-text-primary-strong-inverse); }
-
 .bc-color-text-secondary { color: var(--bc-color-text-secondary); }
 .bc-color-text-secondary-strong { color: var(--bc-color-text-secondary-strong); }
 .bc-color-text-secondary-strong-inverse { color: var(--bc-color-text-secondary-strong-inverse); }
-
 .bc-color-text-accent { color: var(--bc-color-text-accent); }
 .bc-color-text-accent-strong { color: var(--bc-color-text-accent-strong); }
 .bc-color-text-accent-strong-inverse { color: var(--bc-color-text-accent-strong-inverse); }

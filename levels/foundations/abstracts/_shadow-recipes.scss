@@ -6,6 +6,8 @@
 // This file emits no CSS and is not part of the public Foundation taxonomy.
 //
 
+@use "sass:list";
+
 $bc-shadow-recipes: (
     soft: (
         fallen: (
@@ -65,3 +67,23 @@ $bc-shadow-recipes: (
         )
     )
 );
+
+// Iterate over every complete shadow recipe without duplicating the nested
+// map traversal in each consumer.
+@mixin each-recipe {
+    @each $strength, $levels in $bc-shadow-recipes {
+        @each $level, $layers in $levels {
+            @content($strength, $level, $layers);
+        }
+    }
+}
+
+// Iterate over every primitive layer while keeping the recipe structure in
+// one place. Layer tuples contain geometry, spread, and opacity respectively.
+@mixin each-layer {
+    @include each-recipe using ($strength, $level, $layers) {
+        @for $index from 1 through list.length($layers) {
+            @content($strength, $level, $index, list.nth($layers, $index));
+        }
+    }
+}
